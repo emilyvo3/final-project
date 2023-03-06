@@ -32,5 +32,7 @@ upcoming week.
 -Currently, I have tried to convert the Excel file which holds the Tutoring Schedule for this semester
  (provided by the Academic Success Center on myUTK) to a txt file called tutor.txt . The format of this file is very complicated to be able to save it to maps. 
 
-
+- I worked on a sample input code named 'tutor.cpp' which asks the user for input to store which courses they offer.
+Our actual plan is to convert the excel file from the Academic Sucess Center to txt and then store that data in maps. This code doesn't full work right now but we have to write a similar code in Python and not C++. Both of us submitted code for Challenge #4
+in C++ as neither of us know Python and intend to learn it over spring break.
 
