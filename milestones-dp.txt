@@ -1,5 +1,6 @@
 Milestones for final project
 Dhwani Patel
+Group partner: Emily Vo
 
 Git repository: git@github.com:emilyvo3/final-project.git
 
