@@ -1,6 +1,8 @@
 Milestones for final project
 Dhwani Patel
 
+Git repository: git@github.com:emilyvo3/final-project.git
+
 Rubric (worked collaboratively on)
 
 +4 Code well formatted, includes comments
