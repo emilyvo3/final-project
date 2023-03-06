@@ -11,4 +11,26 @@ Rubric (worked collaboratively on)
 +8 Descriptive time log from both the partners, stating what was done on an individual level
 +10 Final in-class presentation and a working demonstration of the project
 
+Time log:
+~1 hour: Brainstorming ideas on how to properly execute the final project.
+~1 hour: Planning how we want the project to rule out.
+~1.5 hours: Researching about how app building/ web-browser building works
+~1.5 hour: Making a rough code in C++ which stores the input about tutors (Which was originally stored in an Excel file)
+        Data from excel file was converted to txt and then stored in maps. (Tried to make it fully work but with the midterms
+		and the superball project, time fell short)
+
+
+-We are planning on learning Python over spring break which will help us build a database server. We didn't get much time to 
+prepare a proper working code since it's just the two of us in the group and both of us had back to back midterms in the past two
+weeks. We still need to learn a lot of things before actually being able to start with the project.
+
+-We are thinking of modifying the idea from making an app to making a web-browser since neither of us have previous coding 
+experience in Android Studio, and it will be extremely time consuming to be learning all that during the semester. We are
+concerned that we might not be able to finish the project in time. We are planning to talk to Dr. Emrich about this during the 
+upcoming week.
+
+-Currently, I have tried to convert the Excel file which holds the Tutoring Schedule for this semester
+ (provided by the Academic Success Center on myUTK) to a txt file called tutor.txt . The format of this file is very complicated to be able to save it to maps. 
+
+
 
