@@ -1,0 +1,21 @@
+Milestones for Final Project
+Emily Vo
+
+Git repository: git@github.com:emilyvo3/final-project.git
+
+Rubric (worked collaboratively on)
+
++4 Code well formatted, includes comments
++8 Uses a data structure and/or sorting algorithm learnt in COSC-302
++10 Code compiles and works as intended
++8 Descriptive time log from both the partners, stating what was done on an individual level
++10 Final in-class presentation and a working demonstration of the project
+
+My required time: More than 4 hours + 2 hours in lab. 
+
+My task for Challenge 4: Take in user input and store them in a map.
+
+Short report of how this challenge went: My partner and I both researched and talked about how we will create a backend server, 
+utilize an interface, programming language to use, and how we would go about developing a web browser for our tutor-tutee idea 
+(originally an app, but we feel like it would be difficult to manage for a 2-people group). Some parts and plans for this final project 
+will still require further guidance and research before actually beginning the project.
