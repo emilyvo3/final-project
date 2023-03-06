@@ -1,0 +1,12 @@
+Milestones for final project
+Dhwani Patel
+
+Rubric (worked collaboratively on)
+
++4 Code well formatted, includes comments
++8 Uses a data structure and/or sorting algorithm learnt in COSC-302
++10 Code compiles and works as intended
++8 Descriptive time log from both the partners, stating what was done on an individual level
++10 Final in-class presentation and a working demonstration of the project
+
+
