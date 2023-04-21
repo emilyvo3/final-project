@@ -8,61 +8,69 @@
     tools:context=".MainActivity">
 
     <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="374dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="16dp"
+        android:background="#FF8200"
+        android:ems="30"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Enter your courses:"
+        android:textColor="@color/white"
+        android:textColorHighlight="#FF9800"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <EditText
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="378dp"
         android:layout_height="164dp"
+        android:background="@color/white"
         android:ems="30"
+        android:gravity="center"
         android:inputType="textPersonName"
         android:text="Text"
-        android:gravity="center"
-        android:background="@color/white"
+        android:textSize="20sp"
         android:textColorHighlight="#FF9800"
-        app:layout_constraintEnd_toEndOf="@+id/textView2"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
-        tools:layout_editor_absoluteY="492dp" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Enter the number of courses:"
-        android:textColor="#FF9800"
-        android:textColorHighlight="#FF9800"
-        android:textSize="35sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.344" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Enter your courses:"
-        android:textColor="#FF9800"
-        android:textColorHighlight="#FF9800"
-        android:textSize="35sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.551" />
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="423dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="89dp"
-        android:layout_height="57dp"
+        android:layout_width="374dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="16dp"
+        android:background="#FF8200"
         android:ems="30"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Enter the number of courses:"
+        android:textColor="@color/white"
+        android:textColorHighlight="#FF9800"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="76dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="168dp"
+        android:background="@color/white"
+        android:ems="30"
+        android:gravity="center"
         android:inputType="textPersonName"
         android:text="Text"
-        android:gravity="center"
-        android:background="@color/white"
+        android:textSize="20sp"
         android:textColorHighlight="#FF9800"
-        app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintStart_toStartOf="@+id/textView"
-        tools:layout_editor_absoluteY="328dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="241dp" />
 
     <Button
         android:id="@+id/button"
@@ -70,7 +78,9 @@
         android:layout_height="48dp"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName2"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
-        tools:layout_editor_absoluteY="676dp" />
+        tools:layout_editor_absoluteY="611dp"
+        android:background="@drawable/rounded_button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
