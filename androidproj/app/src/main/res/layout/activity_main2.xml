@@ -7,6 +7,15 @@
     android:background="#58595B"
     tools:context=".MainActivity2">
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="142dp"
+        android:layout_height="66dp"
+        android:background="@drawable/buttons"
+        android:text="Go Back"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="624dp" />
+
     <EditText
         android:id="@+id/editTextTextPersonName7"
         android:layout_width="378dp"
@@ -18,46 +27,10 @@
         android:inputType="textPersonName"
         android:textColorHighlight="#FF9800"
         android:textSize="28sp"
-        app:layout_constraintEnd_toEndOf="@+id/textView"
+        android:background="@drawable/white_text_view"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="131dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName6"
-        android:layout_width="200dp"
-        android:layout_height="67dp"
-        android:layout_marginStart="104dp"
-        android:background="#FF8200"
-        android:ems="30"
-        android:gravity="center"
-        android:inputType="textPersonName"
-        android:text="Go Back"
-        android:textColor="@color/white"
-        android:textColorHighlight="#FF9800"
-        android:textSize="28sp"
-        app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="622dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName5"
-        android:layout_width="200dp"
-        android:layout_height="67dp"
-        android:layout_marginStart="104dp"
-        android:background="#FF8200"
-        android:ems="30"
-        android:gravity="center"
-        android:inputType="textPersonName"
-        android:text="Confirm"
-        android:textColor="@color/white"
-        android:textColorHighlight="#FF9800"
-        android:textSize="28sp"
-        app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="541dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName4"
@@ -72,8 +45,18 @@
         android:textColor="@color/white"
         android:textColorHighlight="#FF9800"
         android:textSize="28sp"
-        app:layout_constraintEnd_toEndOf="@+id/textView"
+        android:background="@drawable/orange_text_view"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="40dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="142dp"
+        android:layout_height="66dp"
+        android:background="@drawable/buttons"
+        android:text="Confirm"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="547dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
