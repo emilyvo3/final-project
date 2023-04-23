@@ -12,6 +12,7 @@
         android:layout_width="374dp"
         android:layout_height="67dp"
         android:layout_marginStart="16dp"
+        android:background="@drawable/orange_text_view"
         android:ems="30"
         android:gravity="center"
         android:inputType="textPersonName"
@@ -19,10 +20,8 @@
         android:textColor="@color/white"
         android:textColorHighlight="#FF9800"
         android:textSize="27sp"
-        android:background="@drawable/orange_text_view"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="330dp" />
+        tools:layout_editor_absoluteY="285dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
@@ -36,7 +35,7 @@
         android:textColorHighlight="#FF9800"
         android:textSize="19sp"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="414dp" />
+        tools:layout_editor_absoluteY="370dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -51,9 +50,8 @@
         android:textColor="@color/white"
         android:textColorHighlight="#FF9800"
         android:textSize="27sp"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="147dp" />
+        tools:layout_editor_absoluteY="123dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -68,17 +66,16 @@
         android:textColorHighlight="#FF9800"
         android:textSize="19sp"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="226dp" />
+        tools:layout_editor_absoluteY="205dp" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="48dp"
+        android:layout_width="138dp"
+        android:layout_height="67dp"
         android:background="@drawable/buttons"
         android:text="Go"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName2"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
-        tools:layout_editor_absoluteY="611dp" />
+        tools:layout_editor_absoluteY="580dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
