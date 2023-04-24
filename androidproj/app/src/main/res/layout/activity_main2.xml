@@ -13,6 +13,7 @@
         android:layout_height="67dp"
         android:background="@drawable/buttons"
         android:text="Go Back"
+        android:textSize="20sp"
         tools:layout_editor_absoluteX="124dp"
         tools:layout_editor_absoluteY="626dp" />
 
@@ -22,13 +23,12 @@
         android:layout_height="388dp"
         android:layout_marginStart="16dp"
         android:background="@color/white"
+        android:background="@drawable/white_text_view"
         android:ems="30"
         android:gravity="center"
         android:inputType="textPersonName"
         android:textColorHighlight="#FF9800"
         android:textSize="28sp"
-        android:background="@drawable/white_text_view"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="131dp" />
 
@@ -38,6 +38,7 @@
         android:layout_height="67dp"
         android:layout_marginStart="16dp"
         android:background="#FF8200"
+        android:background="@drawable/orange_text_view"
         android:ems="30"
         android:gravity="center"
         android:inputType="textPersonName"
@@ -45,10 +46,8 @@
         android:textColor="@color/white"
         android:textColorHighlight="#FF9800"
         android:textSize="28sp"
-        android:background="@drawable/orange_text_view"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="40dp" />
+        tools:layout_editor_absoluteY="43dp" />
 
     <Button
         android:id="@+id/button2"
@@ -56,6 +55,7 @@
         android:layout_height="67dp"
         android:background="@drawable/buttons"
         android:text="Confirm"
+        android:textSize="20sp"
         tools:layout_editor_absoluteX="124dp"
         tools:layout_editor_absoluteY="546dp" />
 
