@@ -31,9 +31,9 @@
         android:ems="30"
         android:gravity="left"
         android:inputType="textPersonName"
-        android:text="COSC302, COSC311, ECE313, GEOG101"
+        android:text="(e.g.COSC302, COSC311, ECE313, GEOG101)"
         android:textColorHighlight="#FF9800"
-        android:textSize="19sp"
+        android:textSize="18sp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="370dp" />
 
