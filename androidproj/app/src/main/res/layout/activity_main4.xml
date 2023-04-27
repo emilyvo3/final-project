@@ -15,19 +15,19 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:src="@drawable/UTlogo"
+            android:src="@drawable/tnlogo"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="124dp" />
 
         <ImageView
             android:layout_width="553dp"
             android:layout_height="351dp"
-            android:src="@drawable/VolVerse"
+            android:src="@drawable/volverse"
             tools:layout_editor_absoluteX="-71dp"
             tools:layout_editor_absoluteY="220dp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/start"
             android:layout_width="182dp"
             android:layout_height="91dp"
             android:background="@drawable/buttons"

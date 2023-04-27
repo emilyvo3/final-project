@@ -69,7 +69,7 @@
         tools:layout_editor_absoluteY="203dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/go"
         android:layout_width="162dp"
         android:layout_height="67dp"
         android:background="@drawable/buttons"
