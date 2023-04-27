@@ -25,7 +25,7 @@
         android:background="@drawable/white_text_view"
         android:ems="30"
         android:gravity="left"
-        android:text="Tutor confirmation box."
+        android:text="(Tutor confirmation box.)"
         android:inputType="textPersonName"
         android:textColorHighlight="#FF9800"
         android:textSize="28sp"
