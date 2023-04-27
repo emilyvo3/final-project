@@ -70,7 +70,7 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="138dp"
+        android:layout_width="162dp"
         android:layout_height="67dp"
         android:background="@drawable/buttons"
         android:text="Go"
