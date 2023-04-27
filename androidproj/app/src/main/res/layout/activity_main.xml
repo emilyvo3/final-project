@@ -30,8 +30,8 @@
         android:background="@drawable/white_text_view"
         android:ems="30"
         android:gravity="left"
+        android:hint="(e.g.COSC302, COSC311, ECE313, GEOG101)"
         android:inputType="textPersonName"
-        android:text="(e.g.COSC302, COSC311, ECE313, GEOG101)"
         android:textColorHighlight="#FF9800"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="16dp"
@@ -61,8 +61,8 @@
         android:background="@drawable/white_text_view"
         android:ems="30"
         android:gravity="center"
+        android:hint="(e.g. 1)"
         android:inputType="textPersonName"
-        android:text="4"
         android:textColorHighlight="#FF9800"
         android:textSize="19sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -70,7 +70,7 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="162dp"
+        android:layout_width="138dp"
         android:layout_height="67dp"
         android:background="@drawable/buttons"
         android:text="Go"
