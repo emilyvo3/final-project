@@ -6,18 +6,18 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
-public class MainActivity2 extends AppCompatActivity {
+public class confirmation extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.confirmation);
 
         Button nextButton = findViewById(R.id.confirm);
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity2.this, NextActivity.class);
+                Intent intent = new Intent(confirmation.this, NextActivity.class);
                 startActivity(intent);
             }
         });
@@ -26,7 +26,7 @@ public class MainActivity2 extends AppCompatActivity {
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity2.this, NextActivity.class);
+                Intent intent = new Intent(confirmation.this, book_appt.class);
                 startActivity(intent);
             }
         });

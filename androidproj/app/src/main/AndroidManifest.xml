@@ -15,10 +15,10 @@
             android:name=".activity_main4"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".confirmation"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".student_input"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

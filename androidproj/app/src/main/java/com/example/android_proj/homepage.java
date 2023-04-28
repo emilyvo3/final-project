@@ -4,17 +4,17 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
-public class Activity_main4 extends AppCompatActivity {
+public class homepage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main4);
+        setContentView(R.layout.homepage);
 
         Button nextButton = findViewById(R.id.start);
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Activity_main4.this, NextActivity.class);
+                Intent intent = new Intent(homepage.this, student_input.class);
                 startActivity(intent);
             }
         });

@@ -4,18 +4,18 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
-public class Activity_main3 extends AppCompatActivity {
+public class book_appt extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
+        setContentView(R.layout.book_appt);
 
         Button nextButton = findViewById(R.id.confirm_button);
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Activity_main3.this, NextActivity.class);
+                Intent intent = new Intent(book_appt.this, confirmation.class);
                 startActivity(intent);
             }
         });

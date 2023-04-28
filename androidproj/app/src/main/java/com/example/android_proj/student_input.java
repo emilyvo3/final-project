@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class MainActivity extends AppCompatActivity {
+public class student_input extends AppCompatActivity {
 
     int nCourses;
     String crs;
@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.student_input);
 
         nCourses = (EditText) findViewById(R.id.numCourse);
         crs = (EditText) findViewById(R.id.courses);
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, NextActivity.class);
+                Intent intent = new Intent(student_input.this, book_appt.class);
                 startActivity(intent);
             }
         });

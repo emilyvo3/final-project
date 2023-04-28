@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_main4">
+    tools:context=".homepage">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#58595B"
-        tools:context=".MainActivity">
+        tools:context=".student_input">
 
         <ImageView
             android:layout_width="match_parent"

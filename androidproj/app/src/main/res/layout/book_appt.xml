@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#58595B"
-    tools:context=".MainActivity2">
+    tools:context=".book_appt">
 
     <Button
         android:id="@+id/confirm_button"
