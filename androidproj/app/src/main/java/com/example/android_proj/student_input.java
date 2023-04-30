@@ -25,10 +25,10 @@ public class student_input extends AppCompatActivity {
         nCourses = (EditText) findViewById(R.id.numCourse);
         crs = (EditText) findViewById(R.id.courses);
 
-        button = (Button) findViewById(R.id.submitButton);
+        //button = (Button) findViewById(R.id.submitButton);
 
-        Button nextButton = findViewById(R.id.go);
-        nextButton.setOnClickListener(new View.OnClickListener() {
+        Button submitButton = findViewById(R.id.submit);
+        submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(student_input.this, book_appt.class);

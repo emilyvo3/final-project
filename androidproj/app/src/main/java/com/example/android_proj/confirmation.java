@@ -14,17 +14,16 @@ public class confirmation extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.confirmation);
 
-        Button nextButton = findViewById(R.id.confirm);
-        nextButton.setOnClickListener(new View.OnClickListener() {
+        Button confirmButton = findViewById(R.id.confirm);
+        confirmButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-              //  Intent intent = new Intent(confirmation.this, NextActivity.class);
-              //  startActivity(intent);
+                finish();
             }
         });
 
         Button backButton = findViewById(R.id.goback);
-        nextButton.setOnClickListener(new View.OnClickListener() {
+        backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(confirmation.this, book_appt.class);

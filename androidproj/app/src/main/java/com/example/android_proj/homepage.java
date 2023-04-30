@@ -12,8 +12,8 @@ public class homepage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.homepage);
 
-        Button nextButton = findViewById(R.id.start);
-        nextButton.setOnClickListener(new View.OnClickListener() {
+        Button startButton = findViewById(R.id.start);
+        startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(homepage.this, student_input.class);

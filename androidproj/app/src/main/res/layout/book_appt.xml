@@ -8,11 +8,11 @@
     tools:context=".book_appt">
 
     <Button
-        android:id="@+id/confirm_button"
+        android:id="@+id/submit"
         android:layout_width="162dp"
         android:layout_height="67dp"
         android:background="@drawable/buttons"
-        android:text="Confirm"
+        android:text="Submit"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
