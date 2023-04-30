@@ -9,14 +9,16 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bf28d05-afb4-4df5-b6c8-b7135db96a17" name="Changes" comment="buttons">
+    <list default="true" id="9bf28d05-afb4-4df5-b6c8-b7135db96a17" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/MainActivity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/MainActivity2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/activity_main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/activity_main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/activity_main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/homepage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/homepage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/book_appt.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/book_appt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/confirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/confirmation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/homepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/student_input.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/student_input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/book_appt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/book_appt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/student_input.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/student_input.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +101,9 @@
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;/Users/emilyvo/final-project/androidproj/app/src/main/res/drawable-v24&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/emilyvo/final-project/androidproj/app/src/main/res/drawable-v24&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDK Location&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
@@ -330,7 +335,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682636957397</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1682693126160</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682693126160</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update">
+      <created>1682707810342</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682707810342</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -345,8 +364,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update" />
     <MESSAGE value="buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="buttons" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>

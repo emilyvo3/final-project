@@ -13,8 +13,8 @@ public class book_appt extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.book_appt);
 
-        Button nextButton = findViewById(R.id.confirm_button);
-        nextButton.setOnClickListener(new View.OnClickListener() {
+        Button submitButton = findViewById(R.id.submit);
+        submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(book_appt.this, confirmation.class);
