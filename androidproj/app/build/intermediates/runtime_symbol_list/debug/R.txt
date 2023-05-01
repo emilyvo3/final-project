@@ -2808,7 +2808,7 @@ int drawable test_level_drawable 0x7f0700df
 int drawable tnlogo 0x7f0700e0
 int drawable tooltip_frame_dark 0x7f0700e1
 int drawable tooltip_frame_light 0x7f0700e2
-int drawable volverse 0x7f0700e3
+int drawable vol 0x7f0700e5
 int drawable white_text_view 0x7f0700e4
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
@@ -3015,7 +3015,6 @@ int id frost 0x7f0800c9
 int id fullscreen_header 0x7f0800ca
 int id ghost_view 0x7f0800cb
 int id ghost_view_holder 0x7f0800cc
-int id go 0x7f0800cd
 int id goback 0x7f0800ce
 int id gone 0x7f0800cf
 int id graph 0x7f0800d0
@@ -3239,6 +3238,7 @@ int id staticPostLayout 0x7f0801a9
 int id stop 0x7f0801aa
 int id stretch 0x7f0801ab
 int id submenuarrow 0x7f0801ac
+int id submit 0x7f0801f5
 int id submit_area 0x7f0801ad
 int id supportScrollUp 0x7f0801ae
 int id tabMode 0x7f0801af
@@ -3276,6 +3276,7 @@ int id time 0x7f0801ce
 int id title 0x7f0801cf
 int id titleDividerNoCustom 0x7f0801d0
 int id title_template 0x7f0801d1
+int id tlogo 0x7f0801f6
 int id toggle 0x7f0801d2
 int id top 0x7f0801d3
 int id topPanel 0x7f0801d4
@@ -3302,6 +3303,7 @@ int id view_tree_saved_state_registry_owner 0x7f0801e8
 int id view_tree_view_model_store_owner 0x7f0801e9
 int id visible 0x7f0801ea
 int id visible_removing_fragment_view_tag 0x7f0801eb
+int id volverse 0x7f0801f7
 int id west 0x7f0801ec
 int id withText 0x7f0801ed
 int id with_icon 0x7f0801ee

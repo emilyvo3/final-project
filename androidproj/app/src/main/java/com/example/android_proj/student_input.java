@@ -23,8 +23,7 @@ public class student_input extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.student_input);
 
-        //nCourses = (EditText) findViewById(R.id.coursesNums);
-        //crs = (EditText) findViewById(R.id.coursesList);
+
 
         coursesNums = findViewById(R.id.coursesNums);
         coursesList = findViewById(R.id.coursesList);
@@ -38,9 +37,9 @@ public class student_input extends AppCompatActivity {
          crs = coursesListText;
 
 
-        //button = (Button) findViewById(R.id.submitButton);
+        button =  findViewById(R.id.submit);
 
-        Button submitButton = findViewById(R.id.submit);
+        Button submitButton =  findViewById(R.id.submit);
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
