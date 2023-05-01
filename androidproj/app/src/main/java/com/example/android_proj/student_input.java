@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
+
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -39,13 +39,13 @@ public class student_input extends AppCompatActivity {
 
         button =  findViewById(R.id.submit);
 
-        Button submitButton =  findViewById(R.id.submit);
-        submitButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(student_input.this, book_appt.class);
-                startActivity(intent);
-            }
+
+        button.setOnClickListener(v -> {
+            Intent intent = new Intent(student_input.this, book_appt.class);
+            startActivity(intent);
         });
+
+
+
     }
 }
