@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "300980445319",
+    "project_id": "volverse-b6b3d",
+    "storage_bucket": "volverse-b6b3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300980445319:android:7ea005aa25c8ef4459d822",
+        "android_client_info": {
+          "package_name": "com.example.android_proj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300980445319-tjmdvadq0us82os0jsi62uc7cq6n98hf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFkkN6l4oVkYFxdOZ6acliJrWdXnNpmSA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300980445319-tjmdvadq0us82os0jsi62uc7cq6n98hf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
