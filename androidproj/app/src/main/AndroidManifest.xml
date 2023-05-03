@@ -12,20 +12,21 @@
         android:theme="@style/Theme.Androidproj"
         tools:targetApi="31">
         <activity
-            android:name=".activity_main4"
+            android:name=".homepage"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>/>
+        </activity>
+        <activity
+            android:name=".student_input"
+            android:exported="false" />
+        <activity
+            android:name=".book_appt"
             android:exported="false" />
         <activity
             android:name=".confirmation"
             android:exported="false" />
-        <activity
-            android:name=".student_input"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
-
 </manifest>
