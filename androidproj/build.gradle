@@ -1,9 +1,8 @@
-buildscript {
-    ext {
-        ANDROID_HOME = 'sdk.dir=C:\\Users\\Dhwani Patel\\AppData\\Local\\Android\\sdk'
-    }
-}// Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
     id 'com.android.application' version '7.4.2' apply false
     id 'com.android.library' version '7.4.2' apply false
 }
+ext {
+    ANDROID_HOME = 'sdk.dir=C:\\Users\\Dhwani Patel\\AppData\\Local\\Android\\sdk'
+    ANDROID_HOME2 = 'sdk.dir = /Users/emilyvo/Library/Android/sdk'
+}// Top-level build file where you can add configuration options common to all sub-projects/modules.

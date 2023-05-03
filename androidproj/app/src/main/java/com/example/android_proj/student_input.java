@@ -10,11 +10,11 @@ import android.widget.EditText;
 
 public class student_input extends AppCompatActivity {
 
-    int nCourses;
+    /*int nCourses;
     String crs;
 
     EditText coursesNums;
-    EditText coursesList;
+    EditText coursesList;*/
 
     Button button;
 
@@ -25,7 +25,7 @@ public class student_input extends AppCompatActivity {
 
 
 
-        coursesNums = findViewById(R.id.coursesNums);
+        /*coursesNums = findViewById(R.id.coursesNums);
         coursesList = findViewById(R.id.coursesList);
 
 // Get the text values of the EditText views
@@ -34,7 +34,7 @@ public class student_input extends AppCompatActivity {
 
 // Parse the text values to int and String types
          nCourses = Integer.parseInt(coursesNumText);
-         crs = coursesListText;
+         crs = coursesListText;*/
 
 
         button =  findViewById(R.id.submit);
