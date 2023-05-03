@@ -7,7 +7,6 @@
     <uses-sdk
         android:minSdkVersion="24"
         android:targetSdkVersion="33" />
-
     <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
     <!-- <uses-sdk android:minSdkVersion="14"/> -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -43,6 +42,9 @@
         </activity>
         <activity
             android:name="com.example.android_proj.student_input"
+            android:exported="false" />
+        <activity
+            android:name="com.example.android_proj.book_appt"
             android:exported="false" />
         <activity
             android:name="com.example.android_proj.confirmation"

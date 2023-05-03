@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:2:1-31:12
+ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:2:1-32:12
 MERGED from [com.google.android.material:material:1.8.0] /Users/emilyvo/.gradle/caches/transforms-3/1d6008e40b174b18ef5fa9ea4cd35014/transformed/material-1.8.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/emilyvo/.gradle/caches/transforms-3/4b929ab10fd806b94f86bd527f89dd0a/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/emilyvo/.gradle/caches/transforms-3/e5ed6143adbb4e76284add51ce427304/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
@@ -53,27 +53,27 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/emilyvo/.gradle/ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/emilyvo/.gradle/caches/transforms-3/4a128805ae54552b7183634231e39ff5/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/emilyvo/.gradle/caches/transforms-3/ae4109ec1e873f2074e4c3a60211a759/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/emilyvo/.gradle/caches/transforms-3/9d8d7feb3580355ffff343143a4678dc/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:2:1-32:12
 	package
 		INJECTED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml
-		ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:2:1-31:12
+		ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:2:1-32:12
 		INJECTED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml
-		ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:2:1-31:12
+		ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:2:1-32:12
 		INJECTED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml
-		ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:2:1-31:12
+		ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:2:1-32:12
 		INJECTED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:5:5-29:19
+ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:5:5-31:19
 MERGED from [com.google.android.material:material:1.8.0] /Users/emilyvo/.gradle/caches/transforms-3/1d6008e40b174b18ef5fa9ea4cd35014/transformed/material-1.8.0/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.8.0] /Users/emilyvo/.gradle/caches/transforms-3/1d6008e40b174b18ef5fa9ea4cd35014/transformed/material-1.8.0/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/emilyvo/.gradle/caches/transforms-3/4b929ab10fd806b94f86bd527f89dd0a/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -121,33 +121,39 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/emil
 	android:dataExtractionRules
 		ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:7:9-65
 activity#com.example.android_proj.homepage
-ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:14:9-22:20
+ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:14:9-21:20
 	android:exported
 		ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:16:13-36
 	android:name
 		ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:15:13-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:17:9-21:25
+ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:17:9-20:25
 action#android.intent.action.MAIN
 ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:18:13-65
 	android:name
 		ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:18:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:20:13-73
+ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:19:13-73
 	android:name
-		ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:20:23-70
+		ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:19:23-70
 activity#com.example.android_proj.student_input
-ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:23:9-25:40
+ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:22:9-24:40
 	android:exported
-		ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:25:13-37
+		ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:24:13-42
+		ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:23:13-42
+activity#com.example.android_proj.book_appt
+ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:26:13-38
 activity#com.example.android_proj.confirmation
-ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:26:9-28:40
+ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:28:9-30:40
 	android:exported
-		ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:28:13-37
+		ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:27:13-41
+		ADDED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml:29:13-41
 uses-sdk
 INJECTED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/emilyvo/final-project/androidproj/app/src/main/AndroidManifest.xml
