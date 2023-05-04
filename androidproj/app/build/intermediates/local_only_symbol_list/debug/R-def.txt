@@ -17,6 +17,7 @@ drawable smokey_text_view
 drawable tnlogo
 drawable vol
 drawable white_text_view
+id AppointmentsAvailable
 id confirm
 id coursesList
 id coursesNames
