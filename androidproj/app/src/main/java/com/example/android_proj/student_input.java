@@ -59,9 +59,9 @@ public class student_input extends AppCompatActivity {
 
             // Store data in Firebase database
             fDatabase = FirebaseDatabase.getInstance();
-            dRef = fDatabase.getReference("data1");
-            //dRef.child("nCourses").setValue(nCourses);
-            dRef.child("nCourses").addValueEventListener(new ValueEventListener() {
+            dRef = fDatabase.getReference("userInput");
+            dRef.child("coursesNums").setValue(nCourses);
+            dRef.child("coursesNums").addValueEventListener(new ValueEventListener() {
                 @SuppressLint("SetTextI18n")
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -78,7 +78,8 @@ public class student_input extends AppCompatActivity {
                 }
             });
 
-            dRef.child("crs").addValueEventListener(new ValueEventListener() {
+            dRef.child("coursesList").setValue(crs);
+            dRef.child("coursesList").addValueEventListener(new ValueEventListener() {
                 @SuppressLint("SetTextI18n")
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -95,7 +96,7 @@ public class student_input extends AppCompatActivity {
                 }
             });
 
-            //dRef.child("crs").setValue(crs);
+
 
             // Start new activity
             Intent intent = new Intent(student_input.this, book_appt.class);

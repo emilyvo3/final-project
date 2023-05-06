@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "300980445319",
+    "firebase_url": "https://volverse-b6b3d-default-rtdb.firebaseio.com",
     "project_id": "volverse-b6b3d",
     "storage_bucket": "volverse-b6b3d.appspot.com"
   },
@@ -14,7 +15,15 @@
       },
       "oauth_client": [
         {
-          "client_id": "300980445319-tjmdvadq0us82os0jsi62uc7cq6n98hf.apps.googleusercontent.com",
+          "client_id": "300980445319-3lfak38rutnvqskerhq3a41uqs6uph7i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android_proj",
+            "certificate_hash": "250e15fd4a068d97405b2e4997b65cd801c99218"
+          }
+        },
+        {
+          "client_id": "300980445319-44o46o2avncnbm6cel1ds0o4gd4h948v.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -27,7 +36,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "300980445319-tjmdvadq0us82os0jsi62uc7cq6n98hf.apps.googleusercontent.com",
+              "client_id": "300980445319-44o46o2avncnbm6cel1ds0o4gd4h948v.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
