@@ -59,7 +59,7 @@ public class student_input extends AppCompatActivity {
 
             // Store data in Firebase database
             fDatabase = FirebaseDatabase.getInstance();
-            dRef = fDatabase.getReference("userInput");
+            dRef = fDatabase.getReference().child("userInput");
             dRef.child("coursesNums").setValue(nCourses);
             dRef.child("coursesNums").addValueEventListener(new ValueEventListener() {
                 @SuppressLint("SetTextI18n")
