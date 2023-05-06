@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "300980445319",
+    "firebase_url": "https://volverse-b6b3d-default-rtdb.firebaseio.com",
+    "project_id": "volverse-b6b3d",
+    "storage_bucket": "volverse-b6b3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300980445319:android:7ea005aa25c8ef4459d822",
+        "android_client_info": {
+          "package_name": "com.example.android_proj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300980445319-3lfak38rutnvqskerhq3a41uqs6uph7i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android_proj",
+            "certificate_hash": "250e15fd4a068d97405b2e4997b65cd801c99218"
+          }
+        },
+        {
+          "client_id": "300980445319-44o46o2avncnbm6cel1ds0o4gd4h948v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFkkN6l4oVkYFxdOZ6acliJrWdXnNpmSA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300980445319-44o46o2avncnbm6cel1ds0o4gd4h948v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
