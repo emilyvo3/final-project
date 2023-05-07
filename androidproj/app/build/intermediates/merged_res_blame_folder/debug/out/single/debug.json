@@ -17,11 +17,11 @@
     },
     {
         "merged": "com.example.android_proj.app-merged_res-33:/drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "com.example.android_proj.app-pngs-29:/drawable-ldpi/ic_launcher_background.png"
+        "source": "com.example.android_proj.app-pngs-28:/drawable-ldpi/ic_launcher_background.png"
     },
     {
         "merged": "com.example.android_proj.app-merged_res-33:/drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "com.example.android_proj.app-pngs-29:/drawable-xhdpi/ic_launcher_background.png"
+        "source": "com.example.android_proj.app-pngs-28:/drawable-xhdpi/ic_launcher_background.png"
     },
     {
         "merged": "com.example.android_proj.app-merged_res-33:/mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -41,7 +41,7 @@
     },
     {
         "merged": "com.example.android_proj.app-merged_res-33:/drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "com.example.android_proj.app-pngs-29:/drawable-anydpi-v21/ic_launcher_background.xml"
+        "source": "com.example.android_proj.app-pngs-28:/drawable-anydpi-v21/ic_launcher_background.xml"
     },
     {
         "merged": "com.example.android_proj.app-merged_res-33:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -57,11 +57,11 @@
     },
     {
         "merged": "com.example.android_proj.app-merged_res-33:/drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "com.example.android_proj.app-pngs-29:/drawable-mdpi/ic_launcher_background.png"
+        "source": "com.example.android_proj.app-pngs-28:/drawable-mdpi/ic_launcher_background.png"
     },
     {
         "merged": "com.example.android_proj.app-merged_res-33:/drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "com.example.android_proj.app-pngs-29:/drawable-xxhdpi/ic_launcher_background.png"
+        "source": "com.example.android_proj.app-pngs-28:/drawable-xxhdpi/ic_launcher_background.png"
     },
     {
         "merged": "com.example.android_proj.app-merged_res-33:/mipmap-xhdpi_ic_launcher.webp.flat",
@@ -69,7 +69,7 @@
     },
     {
         "merged": "com.example.android_proj.app-merged_res-33:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.android_proj.app-pngs-29:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "source": "com.example.android_proj.app-pngs-28:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
         "merged": "com.example.android_proj.app-merged_res-33:/layout_book_appt.xml.flat",
@@ -89,7 +89,7 @@
     },
     {
         "merged": "com.example.android_proj.app-merged_res-33:/drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "com.example.android_proj.app-pngs-29:/drawable-xxxhdpi/ic_launcher_background.png"
+        "source": "com.example.android_proj.app-pngs-28:/drawable-xxxhdpi/ic_launcher_background.png"
     },
     {
         "merged": "com.example.android_proj.app-merged_res-33:/layout_homepage.xml.flat",
@@ -105,7 +105,7 @@
     },
     {
         "merged": "com.example.android_proj.app-merged_res-33:/drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "com.example.android_proj.app-pngs-29:/drawable-hdpi/ic_launcher_background.png"
+        "source": "com.example.android_proj.app-pngs-28:/drawable-hdpi/ic_launcher_background.png"
     },
     {
         "merged": "com.example.android_proj.app-merged_res-33:/mipmap-xxhdpi_ic_launcher_round.webp.flat",

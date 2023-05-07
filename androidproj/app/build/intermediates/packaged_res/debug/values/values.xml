@@ -10,14 +10,6 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">android-proj</string>
-    <string name="default_web_client_id" translatable="false">300980445319-44o46o2avncnbm6cel1ds0o4gd4h948v.apps.googleusercontent.com</string>
-    <string name="firebase_database_url" translatable="false">https://volverse-b6b3d-default-rtdb.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">300980445319</string>
-    <string name="google_api_key" translatable="false">AIzaSyBFkkN6l4oVkYFxdOZ6acliJrWdXnNpmSA</string>
-    <string name="google_app_id" translatable="false">1:300980445319:android:7ea005aa25c8ef4459d822</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBFkkN6l4oVkYFxdOZ6acliJrWdXnNpmSA</string>
-    <string name="google_storage_bucket" translatable="false">volverse-b6b3d.appspot.com</string>
-    <string name="project_id" translatable="false">volverse-b6b3d</string>
     <style name="Theme.Androidproj" parent="Theme.MaterialComponents.Light.NoActionBar">
         
         <item name="colorPrimary">@color/TN_orange</item>
