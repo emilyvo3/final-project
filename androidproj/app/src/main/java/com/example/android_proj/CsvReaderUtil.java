@@ -20,25 +20,27 @@ public class CsvReaderUtil {
 
 // Loop through rows and split into columns
             for (String[] row : rows) {
-                String[] columns = row.toString().split(",");
+                for(String rowData : row) {
+                    String[] columns = rowData.split(",");
 
-                // Create a new Map to hold the data for this row
-                Map<String, String> rowMap = new HashMap<>();
-                rowMap.put("instructorLast", columns[1]);
-                rowMap.put("instructorFirst", columns[2]);
-                rowMap.put("location1", columns[4]);
-                // ... and so on for all columns
+                    // Create a new Map to hold the data for this row
+                    Map<String, String> rowMap = new HashMap<>();
+                    rowMap.put("instructorLast", columns[1]);
+                    rowMap.put("instructorFirst", columns[2]);
+                    rowMap.put("location1", columns[4]);
+                    // ... and so on for all columns
 
-                // Get the course code for this row
-                String courseCode = columns[0];
+                    // Get the course code for this row
+                    String courseCode = columns[0];
 
-                // If this course code isn't already in the multimap, add it with an empty List
-                if (!multimap.containsKey(courseCode)) {
-                    multimap.put(courseCode, new ArrayList<>());
+                    // If this course code isn't already in the multimap, add it with an empty List
+                    if (!multimap.containsKey(courseCode)) {
+                        multimap.put(courseCode, new ArrayList<>());
+                    }
+
+                    // Add the row data to the List for this course code
+                    multimap.get(courseCode).add(rowMap);
                 }
-
-                // Add the row data to the List for this course code
-                multimap.get(courseCode).add(rowMap);
             }
 
         } catch (IOException | CsvException e) {
