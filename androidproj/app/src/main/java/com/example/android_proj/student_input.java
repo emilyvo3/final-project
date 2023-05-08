@@ -2,6 +2,8 @@ package com.example.android_proj;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -54,6 +56,9 @@ public class student_input extends AppCompatActivity {
                 member.setCoursesList(coursesList.getText().toString().trim());
                 reff.child("Student " + (max_id + 1)).setValue(member);
                 Toast.makeText(student_input.this,"data inserted successfully",Toast.LENGTH_LONG).show();
+
+                Intent intent = new Intent(student_input.this, book_appt.class);
+                startActivity(intent);
             }
         });
     }
