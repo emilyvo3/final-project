@@ -22,8 +22,10 @@ public class CsvReaderUtil {
 
                 // Check if course matches coursesList
                 if (course.equals(coursesList)) {
-                    // Process the data as needed
-                    // ...
+                    // Process the data as needed; display column info
+                    System.out.println("Course: " + course);
+                    System.out.println("Student: " + student);
+                    System.out.println("Time: " + time);
                 }
             }
         } catch (IOException | CsvException e) {
