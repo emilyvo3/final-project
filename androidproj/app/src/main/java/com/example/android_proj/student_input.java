@@ -56,6 +56,7 @@ public class student_input extends AppCompatActivity {
                 member.setNumberOfCourses(number);
                 member.setCoursesList(crs);
                 reff.child("Student " + (max_id + 1)).setValue(member);
+                reff.child("Student " + (max_id + 1)).child("coursesList").setValue(crs);
                 Toast.makeText(student_input.this,"data inserted successfully",Toast.LENGTH_LONG).show();
 
                 Intent intent = new Intent(student_input.this, book_appt.class);
