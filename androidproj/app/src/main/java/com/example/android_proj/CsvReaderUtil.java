@@ -25,6 +25,7 @@ public class CsvReaderUtil {
                     // Process the data as needed; display column info
                     System.out.println("Course: " + course);
                     System.out.println("Student: " + student);
+                    System.out.println("Location: " + location);
                     System.out.println("Time: " + time);
                 }
             }
