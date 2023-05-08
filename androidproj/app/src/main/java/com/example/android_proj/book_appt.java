@@ -1,17 +1,11 @@
 package com.example.android_proj;
 
-import com.example.android_proj.Member;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
-import com.opencsv.CSVReader;
-import com.opencsv.exceptions.CsvException;
-
-import java.io.FileReader;
 import java.io.IOException;
-import java.util.List;
 
 public class book_appt extends AppCompatActivity {
 
