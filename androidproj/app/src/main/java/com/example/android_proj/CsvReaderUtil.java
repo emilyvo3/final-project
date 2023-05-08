@@ -39,7 +39,10 @@ public class CsvReaderUtil {
                     }
 
                     // Add the row data to the List for this course code
-                    multimap.get(courseCode).add(rowMap);
+                    if (multimap.containsKey(courseCode)) {
+                        multimap.get(courseCode).add(rowMap);
+                    }
+
                 }
             }
 
