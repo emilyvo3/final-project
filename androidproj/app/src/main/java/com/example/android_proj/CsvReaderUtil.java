@@ -57,7 +57,6 @@ public class CsvReaderUtil {
         if (filteredData == null) {
             filteredData = new ArrayList<>();
         }
-        // Optionally handle the case when courseCode is not found
         return filteredData;
     }
 }
