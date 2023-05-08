@@ -51,9 +51,10 @@ public class student_input extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int number = Integer.parseInt(textBoxNum.getText().toString().trim());
+                String crs = coursesList.getText().toString().trim();
 
                 member.setNumberOfCourses(number);
-                member.setCoursesList(coursesList.getText().toString().trim());
+                member.setCoursesList(crs);
                 reff.child("Student " + (max_id + 1)).setValue(member);
                 Toast.makeText(student_input.this,"data inserted successfully",Toast.LENGTH_LONG).show();
 
