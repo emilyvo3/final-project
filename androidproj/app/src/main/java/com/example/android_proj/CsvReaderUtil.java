@@ -25,10 +25,10 @@ public class CsvReaderUtil {
 
                     // Create a new Map to hold the data for this row
                     Map<String, String> rowMap = new HashMap<>();
-                    rowMap.put("instructorLast", columns[1]);
-                    rowMap.put("instructorFirst", columns[2]);
-                    rowMap.put("location1", columns[4]);
-                    // ... and so on for all columns
+                    rowMap.put("tutorLast", columns[1]);
+                    rowMap.put("tutorFirst", columns[2]);
+                    rowMap.put("location", columns[4]);
+                    rowMap.put("time", columns[5]);
 
                     // Get the course code for this row
                     String courseCode = columns[0];
