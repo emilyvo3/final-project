@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.android_proj.app-mergeDebugResources-31:/values-sl/values-sl.xml",
+            "outputFile": "com.example.android_proj.app-mergeDebugResources-32:/values-sl/values-sl.xml",
             "map": [
                 {
                     "source": "/Users/emilyvo/.gradle/caches/transforms-3/547f71cbb4e079b69b3d9753099d4c95/transformed/material-1.8.0/res/values-sl/values-sl.xml",

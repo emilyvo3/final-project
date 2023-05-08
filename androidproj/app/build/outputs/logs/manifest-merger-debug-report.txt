@@ -10,6 +10,7 @@ MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/emilyvo/.gradl
 MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/emilyvo/.gradle/caches/transforms-3/1e41bef00fed4228722e3cd79b0d4df7/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database:20.2.1] /Users/emilyvo/.gradle/caches/transforms-3/8db395ea1a8561adfea6cc8e2bf71e7c/transformed/firebase-database-20.2.1/AndroidManifest.xml:15:1-37:12
 MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/emilyvo/.gradle/caches/transforms-3/d69a2d7751b7be09ef9793640c1355c1/transformed/firebase-auth-22.0.0/AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.firebase:firebase-core:21.1.1] /Users/emilyvo/.gradle/caches/transforms-3/0d08df2a710d879542c45fa96495fa08/transformed/firebase-core-21.1.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-analytics:21.2.2] /Users/emilyvo/.gradle/caches/transforms-3/c67028af4decc66732b1679e000f47bf/transformed/firebase-analytics-21.2.2/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/emilyvo/.gradle/caches/transforms-3/6f8d2679968c963a5213a6086977bb74/transformed/firebase-storage-20.2.0/AndroidManifest.xml:15:1-38:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/emilyvo/.gradle/caches/transforms-3/545d4868cb48283d48ddc5b403293fe9/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
@@ -100,6 +101,8 @@ MERGED from [com.google.firebase:firebase-database:20.2.1] /Users/emilyvo/.gradl
 MERGED from [com.google.firebase:firebase-database:20.2.1] /Users/emilyvo/.gradle/caches/transforms-3/8db395ea1a8561adfea6cc8e2bf71e7c/transformed/firebase-database-20.2.1/AndroidManifest.xml:27:5-35:19
 MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/emilyvo/.gradle/caches/transforms-3/d69a2d7751b7be09ef9793640c1355c1/transformed/firebase-auth-22.0.0/AndroidManifest.xml:28:5-73:19
 MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/emilyvo/.gradle/caches/transforms-3/d69a2d7751b7be09ef9793640c1355c1/transformed/firebase-auth-22.0.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-core:21.1.1] /Users/emilyvo/.gradle/caches/transforms-3/0d08df2a710d879542c45fa96495fa08/transformed/firebase-core-21.1.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:21.1.1] /Users/emilyvo/.gradle/caches/transforms-3/0d08df2a710d879542c45fa96495fa08/transformed/firebase-core-21.1.1/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:21.2.2] /Users/emilyvo/.gradle/caches/transforms-3/c67028af4decc66732b1679e000f47bf/transformed/firebase-analytics-21.2.2/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:21.2.2] /Users/emilyvo/.gradle/caches/transforms-3/c67028af4decc66732b1679e000f47bf/transformed/firebase-analytics-21.2.2/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/emilyvo/.gradle/caches/transforms-3/6f8d2679968c963a5213a6086977bb74/transformed/firebase-storage-20.2.0/AndroidManifest.xml:28:5-36:19
@@ -214,6 +217,8 @@ MERGED from [com.google.firebase:firebase-database:20.2.1] /Users/emilyvo/.gradl
 MERGED from [com.google.firebase:firebase-database:20.2.1] /Users/emilyvo/.gradle/caches/transforms-3/8db395ea1a8561adfea6cc8e2bf71e7c/transformed/firebase-database-20.2.1/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/emilyvo/.gradle/caches/transforms-3/d69a2d7751b7be09ef9793640c1355c1/transformed/firebase-auth-22.0.0/AndroidManifest.xml:21:5-23:64
 MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/emilyvo/.gradle/caches/transforms-3/d69a2d7751b7be09ef9793640c1355c1/transformed/firebase-auth-22.0.0/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-core:21.1.1] /Users/emilyvo/.gradle/caches/transforms-3/0d08df2a710d879542c45fa96495fa08/transformed/firebase-core-21.1.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:21.1.1] /Users/emilyvo/.gradle/caches/transforms-3/0d08df2a710d879542c45fa96495fa08/transformed/firebase-core-21.1.1/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:21.2.2] /Users/emilyvo/.gradle/caches/transforms-3/c67028af4decc66732b1679e000f47bf/transformed/firebase-analytics-21.2.2/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:21.2.2] /Users/emilyvo/.gradle/caches/transforms-3/c67028af4decc66732b1679e000f47bf/transformed/firebase-analytics-21.2.2/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/emilyvo/.gradle/caches/transforms-3/6f8d2679968c963a5213a6086977bb74/transformed/firebase-storage-20.2.0/AndroidManifest.xml:19:5-21:41
