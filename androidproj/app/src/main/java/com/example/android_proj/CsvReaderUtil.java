@@ -43,6 +43,7 @@ public class CsvReaderUtil {
                         multimap.get(courseCode).add(rowMap);
                     }
 
+
                 }
             }
 
@@ -50,6 +51,20 @@ public class CsvReaderUtil {
             e.printStackTrace();
         }
 
+        String[] courses = coursesList.split(",\\s*");
+
+        for (String course : courses) {
+            filterByCourse(course, multimap);
+        }
+
+    }
+
+    public static List<Map<String, String>> filterByCourse(String courseCode, Map<String, List<Map<String, String>>> multimap) {
+        List<Map<String, String>> filteredData = new ArrayList<>();
+        if (multimap.containsKey(courseCode)) {
+            filteredData = multimap.get(courseCode);
+        }
+        return filteredData;
     }
 
 
