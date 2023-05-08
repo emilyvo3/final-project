@@ -8,7 +8,6 @@ import android.widget.Button;
 import java.io.IOException;
 
 public class book_appt extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,12 +15,11 @@ public class book_appt extends AppCompatActivity {
 
         Button submitButton = findViewById(R.id.submit);
         submitButton.setOnClickListener(v -> {
-            // Call readCsv method with the appropriate file path and coursesList
+            // Call readCsv method with the appropriate file path
             String filePath = "app/sampledata/ASC.csv";
-            String coursesList = Member.getCoursesList();
 
             try {
-                CsvReaderUtil.readCsv(filePath, coursesList);
+                CsvReaderUtil.readCsv(filePath);
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -32,6 +30,7 @@ public class book_appt extends AppCompatActivity {
         });
     }
 }
+
 
 
 
