@@ -2,7 +2,7 @@ package com.example.android_proj;
 
 public class Member {
     private Integer NumberOfCourses;
-    private String CoursesList;
+    private static String CoursesList;
 
     public Member() {
     }
@@ -15,11 +15,9 @@ public class Member {
         NumberOfCourses = numberOfCourses;
     }
 
-    public String getCoursesList() {
+    public static String getCoursesList() {
         return CoursesList;
     }
 
-    public void setCoursesList(String coursesList) {
-        CoursesList = coursesList;
-    }
+    public void setCoursesList(String coursesList) {CoursesList = coursesList;}
 }
