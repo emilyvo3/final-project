@@ -13,16 +13,18 @@ public class book_appt extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.book_appt);
 
+        String filePath = "app/sample data/ASC.csv";
+
+        try {
+            CsvReaderUtil.readCsv(filePath);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
         Button submitButton = findViewById(R.id.submit);
         submitButton.setOnClickListener(v -> {
             // Call readCsv method with the appropriate file path
-            String filePath = "app/sampledata/ASC.csv";
 
-            try {
-                CsvReaderUtil.readCsv(filePath);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
 
             // Start the confirmation activity
             Intent intent = new Intent(book_appt.this, confirmation.class);
