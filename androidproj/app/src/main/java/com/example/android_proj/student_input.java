@@ -1,5 +1,6 @@
 package com.example.android_proj;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,14 +9,18 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.firebase.FirebaseApp;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class student_input extends AppCompatActivity {
     EditText textBoxNum, coursesList;
     Button submit;
     DatabaseReference reff;
     Member member;
+    long max_id = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         FirebaseApp.initializeApp(this);
@@ -27,6 +32,18 @@ public class student_input extends AppCompatActivity {
         submit = (Button)findViewById(R.id.submit);
         member = new Member();
         reff = FirebaseDatabase.getInstance().getReference().child("User Input");
+        reff.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                //DataSnapshot dataSnapshot = null;
+                if(dataSnapshot.exists())
+                    max_id = dataSnapshot.getChildrenCount();
+            }
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
 
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,7 +52,7 @@ public class student_input extends AppCompatActivity {
 
                 member.setNumberOfCourses(number);
                 member.setCoursesList(coursesList.getText().toString().trim());
-                reff.child("Student").setValue(member);
+                reff.child("Student " + (max_id + 1)).setValue(member);
                 Toast.makeText(student_input.this,"data inserted successfully",Toast.LENGTH_LONG).show();
             }
         });
