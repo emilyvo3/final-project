@@ -11,8 +11,11 @@
   <component name="ChangeListManager">
     <list default="true" id="9bf28d05-afb4-4df5-b6c8-b7135db96a17" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/CsvReaderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/CsvReaderUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/book_appt.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/book_appt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/book_appt.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/book_apt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/confirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/confirmation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/student_input.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/student_input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/book_appt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/book_appt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -567,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683576004953</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="update">
+      <created>1683592577550</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1683592577550</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -26,7 +26,7 @@ public class confirmation extends AppCompatActivity {
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(confirmation.this, book_appt.class);
+                Intent intent = new Intent(confirmation.this, book_apt.class);
                 startActivity(intent);
             }
         });
