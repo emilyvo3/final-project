@@ -112,7 +112,7 @@ public class book_apt extends AppCompatActivity {
     }
 
 
-    private class AppointmentAdapter extends RecyclerView.Adapter<AppointmentAdapter.ViewHolder> {
+    private static class AppointmentAdapter extends RecyclerView.Adapter<AppointmentAdapter.ViewHolder> {
         private List<Appointment> appointments;
         //private Context context;
 
