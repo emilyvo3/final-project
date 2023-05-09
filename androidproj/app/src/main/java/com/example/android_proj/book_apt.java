@@ -1,10 +1,17 @@
 package com.example.android_proj;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import java.io.IOException;
 import java.util.List;
@@ -28,7 +35,7 @@ public class book_apt extends AppCompatActivity {
 
             for (String course : courses) {
                 //filtered.put(data.keySet().toString(), CsvReaderUtil.filterByCourse(String.valueOf(courses), data));
-                List<Map<String, String>> appointments = CsvReaderUtil.filterByCourse(courseCode, data);
+                List<Map<String, String>> appointments = CsvReaderUtil.filterByCourse(String.valueOf(courses), data);
                 // Create and add views for each appointment
                 for (Map<String, String> appointment : appointments) {
                     String date = appointment.get("date");
@@ -37,7 +44,7 @@ public class book_apt extends AppCompatActivity {
 
                     // Create views for appointment details
                     TextView courseCodeView = new TextView(this);
-                    courseCodeView.setText(courseCode);
+                    courseCodeView.setText(String.valueOf(courses));
 
                     TextView dateView = new TextView(this);
                     dateView.setText(date);
@@ -118,6 +125,51 @@ class Appointment {
         this.location = location;
     }
 }
+
+class AppointmentAdapter extends RecyclerView.Adapter<AppointmentAdapter.ViewHolder> {
+    private List<Appointment> appointments;
+
+    public AppointmentAdapter(List<Appointment> appointments) {
+        this.appointments = appointments;
+    }
+
+    @NonNull
+    @Override
+    public AppointmentAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.appointment_item, parent, false);
+        return new ViewHolder(view);
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull AppointmentAdapter.ViewHolder holder, int position) {
+        Appointment appointment = appointments.get(position);
+        holder.courseCode.setText(appointment.getCourseCode());
+        holder.date.setText(appointment.getDate());
+        holder.time.setText(appointment.getTime());
+        holder.location.setText(appointment.getLocation());
+    }
+
+    @Override
+    public int getItemCount() {
+        return appointments.size();
+    }
+
+    public class ViewHolder extends RecyclerView.ViewHolder {
+        private TextView courseCode;
+        private TextView date;
+        private TextView time;
+        private TextView location;
+
+        public ViewHolder(View itemView) {
+            super(itemView);
+            courseCode = itemView.findViewById(R.id.course_code);
+            date = itemView.findViewById(R.id.date);
+            time = itemView.findViewById(R.id.time);
+            location = itemView.findViewById(R.id.location);
+        }
+    }
+}
+
 
 
 
