@@ -14,7 +14,6 @@
         android:background="@drawable/orange_text_view"
         android:ems="30"
         android:gravity="center"
-        android:inputType="textPersonName"
         android:text="@string/appointments_available"
         android:textColor="@color/white"
         android:textColorHighlight="#FF9800"
@@ -34,16 +33,15 @@
         android:background="@color/white"
         android:ems="30"
         android:gravity="center"
-        android:inputType="textPersonName"
-        android:text="Appointments Available:"
         android:textColor="@color/black"
         android:textColorHighlight="#FF9800"
         android:textSize="27sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.463" />
+        app:layout_constraintVertical_bias="0.462" />
 
     <Button
         android:id="@+id/submit"

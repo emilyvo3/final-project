@@ -13,15 +13,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/book_apt.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_proj/book_apt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/book_appt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/book_appt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/ids.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/ids.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Dhwani Patel\.android\avd\Pixel_2_API_UpsideDownCake_1.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/emilyvo/.android/avd/Resizable_Experimental_API_33.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -73,7 +72,6 @@
       <list>
         <option value="Class" />
         <option value="valueResourceFile" />
-        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -607,14 +605,7 @@
       <option name="project" value="LOCAL" />
       <updated>1683599229172</updated>
     </task>
-    <task id="LOCAL-00037" summary="update">
-      <created>1683599875831</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1683599875831</updated>
-    </task>
-    <option name="localTasksCounter" value="38" />
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

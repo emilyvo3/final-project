@@ -5,4 +5,5 @@
     <item name="date" type="id" />
     <item name="time" type="id" />
     <item name="location" type="id" />
+    <item name="appointmentRecyclerView" type="id" />
 </resources>

@@ -2,6 +2,7 @@ package com.example.android_proj;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
@@ -17,6 +18,7 @@ import android.widget.TextView;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
+import androidx.recyclerview.widget.RecyclerView;
 
 public class book_apt extends AppCompatActivity {
     @Override
@@ -25,8 +27,10 @@ public class book_apt extends AppCompatActivity {
         setContentView(R.layout.book_appt);
 
         String filePath = "app/sample data/ASC.csv";
+        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) RecyclerView recyclerView = findViewById(R.id.appointmentRecyclerView);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
         Map<String, List<Map<String, String>>> data;
-        Map<String, List<Map<String, String>>> filtered = null;
+        //Map<String, List<Map<String, String>>> filtered = null;
         @SuppressLint({"MissingInflatedId", "LocalSuppress"}) LinearLayout container = findViewById(R.id.container);
 
         try {
@@ -36,7 +40,7 @@ public class book_apt extends AppCompatActivity {
 
             for (String course : courses) {
                 //filtered.put(data.keySet().toString(), CsvReaderUtil.filterByCourse(String.valueOf(courses), data));
-                List<Map<String, String>> appointments = CsvReaderUtil.filterByCourse(String.valueOf(courses), data);
+                List<Map<String, String>> appointments = CsvReaderUtil.filterByCourse(String.valueOf(course), data);
                 // Create and add views for each appointment
                 for (Map<String, String> appointment : appointments) {
                     String date = appointment.get("date");
@@ -45,7 +49,7 @@ public class book_apt extends AppCompatActivity {
 
                     // Create views for appointment details
                     TextView courseCodeView = new TextView(this);
-                    courseCodeView.setText(String.valueOf(courses));
+                    courseCodeView.setText(String.valueOf(course));
 
                     TextView dateView = new TextView(this);
                     dateView.setText(date);
@@ -80,10 +84,10 @@ public class book_apt extends AppCompatActivity {
 }
 
 class Appointment {
-    private String courseCode;
-    private String date;
-    private String time;
-    private String location;
+    private final String courseCode;
+    private final String date;
+    private final String time;
+    private final String location;
 
     public Appointment(String courseCode, String date, String time, String location) {
         this.courseCode = courseCode;
@@ -98,37 +102,40 @@ class Appointment {
         return courseCode;
     }
 
-    public void setCourseCode(String courseCode) {
-        this.courseCode = courseCode;
-    }
+    //public void setCourseCode(String courseCode) {
+        //this.courseCode = courseCode;
+    //}
 
     public String getDate() {
         return date;
     }
 
-    public void setDate(String date) {
-        this.date = date;
-    }
+    //public void setDate(String date) {
+        //this.date = date;
+    //}
 
     public String getTime() {
         return time;
     }
 
-    public void setTime(String time) {
+    /*public void setTime(String time) {
         this.time = time;
-    }
+    }*/
 
     public String getLocation() {
         return location;
     }
 
-    public void setLocation(String location) {
+    /*public void setLocation(String location) {
         this.location = location;
-    }
+    }*/
 }
 
 class AppointmentAdapter extends RecyclerView.Adapter<AppointmentAdapter.ViewHolder> {
     private final List<Appointment> appointments;
+
+    AppointmentAdapter adapter = new AppointmentAdapter(appointmentList);
+        recyclerView.setAdapter(adapter);
 
     public AppointmentAdapter(List<Appointment> appointments) {
         this.appointments = appointments;
