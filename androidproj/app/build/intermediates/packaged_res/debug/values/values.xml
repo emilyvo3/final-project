@@ -9,7 +9,15 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <item name="appointmentRecyclerView" type="id"/>
+    <item name="container" type="id"/>
+    <item name="course_code" type="id"/>
+    <item name="date" type="id"/>
+    <item name="location" type="id"/>
+    <item name="time" type="id"/>
+    <item name="tutor_name" type="id"/>
     <string name="app_name">android-proj</string>
+    <string name="appointments_available">Appointments Available:</string>
     <string name="default_web_client_id" translatable="false">300980445319-44o46o2avncnbm6cel1ds0o4gd4h948v.apps.googleusercontent.com</string>
     <string name="firebase_database_url" translatable="false">https://volverse-b6b3d-default-rtdb.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">300980445319</string>
@@ -18,6 +26,7 @@
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBFkkN6l4oVkYFxdOZ6acliJrWdXnNpmSA</string>
     <string name="google_storage_bucket" translatable="false">volverse-b6b3d.appspot.com</string>
     <string name="project_id" translatable="false">volverse-b6b3d</string>
+    <string name="submit">Submit</string>
     <style name="Theme.Androidproj" parent="Theme.MaterialComponents.Light.NoActionBar">
         
         <item name="colorPrimary">@color/TN_orange</item>
