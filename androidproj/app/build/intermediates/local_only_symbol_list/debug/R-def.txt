@@ -29,10 +29,11 @@ id date
 id editTextTextPersonName4
 id editTextTextPersonName7
 id goback
+id include
+id linearLayout
 id location
 id start
 id submit
-id textBox
 id textBoxNum
 id time
 id tlogo
