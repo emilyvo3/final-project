@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.android_proj.app-mergeDebugResources-32:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "outputFile": "com.example.android_proj.app-mergeDebugResources-31:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/emilyvo/.gradle/caches/transforms-3/94b636954a1b5da07bf392aa613c0f8d/transformed/material-1.8.0/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+                    "source": "C:\\Users\\Dhwani Patel\\.gradle\\caches\\transforms-3\\019cc3dd4fb8bc8d57267209bbc952f4\\transformed\\material-1.8.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -20,6 +20,8 @@ public class confirmation extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(confirmation.this, "Success", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(confirmation.this, homepage.class);
+                startActivity(intent);
             }
         });
 
