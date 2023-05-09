@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="container" type="id" />
+    <item name="course_code" type="id" />
+    <item name="date" type="id" />
+    <item name="time" type="id" />
+    <item name="location" type="id" />
+</resources>

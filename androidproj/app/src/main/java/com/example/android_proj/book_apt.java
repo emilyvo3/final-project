@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -26,7 +27,7 @@ public class book_apt extends AppCompatActivity {
         String filePath = "app/sample data/ASC.csv";
         Map<String, List<Map<String, String>>> data;
         Map<String, List<Map<String, String>>> filtered = null;
-        LinearLayout container = findViewById(R.id.container);
+        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) LinearLayout container = findViewById(R.id.container);
 
         try {
             data = CsvReaderUtil.readCsv(filePath);
@@ -127,7 +128,7 @@ class Appointment {
 }
 
 class AppointmentAdapter extends RecyclerView.Adapter<AppointmentAdapter.ViewHolder> {
-    private List<Appointment> appointments;
+    private final List<Appointment> appointments;
 
     public AppointmentAdapter(List<Appointment> appointments) {
         this.appointments = appointments;
@@ -154,11 +155,11 @@ class AppointmentAdapter extends RecyclerView.Adapter<AppointmentAdapter.ViewHol
         return appointments.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
-        private TextView courseCode;
-        private TextView date;
-        private TextView time;
-        private TextView location;
+    public static class ViewHolder extends RecyclerView.ViewHolder {
+        private final TextView courseCode;
+        private final TextView date;
+        private final TextView time;
+        private final TextView location;
 
         public ViewHolder(View itemView) {
             super(itemView);
