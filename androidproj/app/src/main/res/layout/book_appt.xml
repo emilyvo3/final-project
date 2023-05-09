@@ -7,7 +7,7 @@
     android:background="#58595B"
     tools:context=".book_apt">
 
-    <EditText
+    <TextView
         android:id="@+id/AppointmentsAvailable"
         android:layout_width="374dp"
         android:layout_height="67dp"
@@ -15,7 +15,7 @@
         android:ems="30"
         android:gravity="center"
         android:inputType="textPersonName"
-        android:text="Appointments Available:"
+        android:text="@string/appointments_available"
         android:textColor="@color/white"
         android:textColorHighlight="#FF9800"
         android:textSize="27sp"
@@ -24,7 +24,8 @@
         app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.084" />
+        app:layout_constraintVertical_bias="0.084"
+        tools:ignore="TextViewEdits" />
 
     <TextView
         android:id="@+id/appointmentsAvailable"
@@ -49,7 +50,7 @@
         android:layout_width="162dp"
         android:layout_height="67dp"
         android:background="@drawable/buttons"
-        android:text="Submit"
+        android:text="@string/submit"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
