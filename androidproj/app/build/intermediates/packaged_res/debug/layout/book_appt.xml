@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#58595B"
-    tools:context=".book_apt">
+    tools:context=".book_apt"
+    tools:ignore="ExtraText">
 
     <TextView
         android:id="@+id/AppointmentsAvailable"
@@ -18,41 +19,47 @@
         android:textColor="@color/white"
         android:textColorHighlight="#FF9800"
         android:textSize="27sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/include"
+        app:layout_constraintEnd_toEndOf="@+id/include"
         app:layout_constraintHorizontal_bias="0.486"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/include"
+        app:layout_constraintTop_toTopOf="@+id/include"
         app:layout_constraintVertical_bias="0.084"
         tools:ignore="TextViewEdits" />
 
-    <TextView
-        android:id="@+id/textBox"
-        android:layout_width="358dp"
-        android:layout_height="407dp"
-        android:background="@color/white"
-        android:ems="30"
-        android:gravity="center"
-        android:textColor="@color/black"
-        android:textColorHighlight="#FF9800"
-        android:textSize="27sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
-        app:layout_constraintStart_toStartOf="@+id/container"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.469" />
+<!--    <TextView-->
+<!--        android:id="@+id/textBox"-->
+<!--        android:layout_width="358dp"-->
+<!--        android:layout_height="407dp"-->
+<!--        android:background="@color/white"-->
+<!--        android:ems="30"-->
+<!--        android:gravity="center"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textColorHighlight="#FF9800"-->
+<!--        android:textSize="27sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.49"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/container"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.469" />-->
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/appointmentRecyclerView"
         android:layout_width="331dp"
         android:layout_height="387dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textBox"
-        app:layout_constraintEnd_toEndOf="@+id/textBox"
+        app:layout_constraintBottom_toBottomOf="@+id/include"
+        app:layout_constraintEnd_toEndOf="@+id/AppointmentsAvailable"
         app:layout_constraintHorizontal_bias="0.513"
-        app:layout_constraintStart_toStartOf="@+id/textBox"
-        app:layout_constraintTop_toTopOf="@+id/textBox"
+        app:layout_constraintStart_toStartOf="@+id/AppointmentsAvailable"
+        app:layout_constraintTop_toBottomOf="@+id/AppointmentsAvailable"
         app:layout_constraintVertical_bias="0.555" />
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/item_appointment"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-63dp" />
 
     <LinearLayout
         android:id="@+id/container"
@@ -60,10 +67,10 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintTop_toBottomOf="@id/appointmentRecyclerView"
-        app:layout_constraintBottom_toTopOf="@id/textBox"
+        app:layout_constraintBottom_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        >
+        tools:ignore="UnknownId">
 
     </LinearLayout>
 
@@ -75,7 +82,7 @@
         android:text="@string/submit"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/textBox"
-        app:layout_constraintStart_toStartOf="@+id/textBox"
-        app:layout_constraintTop_toBottomOf="@+id/textBox" />
+        app:layout_constraintEnd_toEndOf="@+id/appointmentRecyclerView"
+        app:layout_constraintStart_toStartOf="@+id/appointmentRecyclerView"
+        app:layout_constraintTop_toBottomOf="@+id/appointmentRecyclerView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
