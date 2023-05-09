@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
-import android.content.Context;
+//import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -61,6 +61,7 @@ public class book_apt extends AppCompatActivity {
 
             adapter.setAppointments(appointmentList); // Update the adapter's appointment list
             adapter.notifyDataSetChanged(); // Notify the adapter that the data has changed
+            recyclerView.invalidate();
 
         } catch (IOException e) {
             e.printStackTrace();
