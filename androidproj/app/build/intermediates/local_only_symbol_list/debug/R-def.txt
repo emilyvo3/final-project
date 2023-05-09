@@ -34,6 +34,7 @@ id linearLayout
 id location
 id start
 id submit
+id textBox
 id textBoxNum
 id time
 id tlogo

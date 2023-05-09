@@ -39,7 +39,7 @@ public class book_apt extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(adapter);
 
-        String filePath = "app/sample data/ASC.csv";
+        String filePath = "app/sampledata/ASC.csv";
 
         try {
             String[] courses = Member.getCoursesList().split(",\\s*");
@@ -112,7 +112,7 @@ public class book_apt extends AppCompatActivity {
     }
 
 
-    private static class AppointmentAdapter extends RecyclerView.Adapter<AppointmentAdapter.ViewHolder> {
+    private class AppointmentAdapter extends RecyclerView.Adapter<AppointmentAdapter.ViewHolder> {
         private List<Appointment> appointments;
         //private Context context;
 
@@ -146,7 +146,7 @@ public class book_apt extends AppCompatActivity {
             return appointments.size();
         }
 
-        public static class ViewHolder extends RecyclerView.ViewHolder {
+        public class ViewHolder extends RecyclerView.ViewHolder {
             private final TextView courseCode;
             private final TextView tutorName;
             private final TextView appointmentTime;
