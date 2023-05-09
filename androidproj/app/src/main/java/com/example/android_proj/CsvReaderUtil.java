@@ -11,9 +11,10 @@ import java.util.List;
 import java.util.Map;
 
 public class CsvReaderUtil {
-    public static void readCsv(String filePath) throws IOException {
+    public static Map<String, List<Map<String, String>>>  readCsv(String filePath) throws IOException {
+        Map<String, List<Map<String, String>>> multimap = new HashMap<>();
         try (CSVReader reader = new CSVReader(new FileReader(filePath))) {
-            Map<String, List<Map<String, String>>> multimap = new HashMap<>();
+
 
             // Read in data from file or other source, and split into rows
             List<String[]> rows = reader.readAll();
@@ -43,13 +44,13 @@ public class CsvReaderUtil {
                 }
             }
 
-            // Filter the data for each course code
-            for (String courseCode : multimap.keySet()) {
-                filterByCourse(courseCode, multimap);
-            }
+
+
         } catch (IOException | CsvException e) {
             e.printStackTrace();
         }
+
+        return multimap;
     }
 
     public static List<Map<String, String>> filterByCourse(String courseCode, Map<String, List<Map<String, String>>> multimap) {
