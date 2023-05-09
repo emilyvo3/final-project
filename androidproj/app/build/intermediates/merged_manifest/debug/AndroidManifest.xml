@@ -46,7 +46,7 @@
             android:name="com.example.android_proj.student_input"
             android:exported="false" />
         <activity
-            android:name="com.example.android_proj.book_appt"
+            android:name="com.example.android_proj.book_apt"
             android:exported="false" />
         <activity
             android:name="com.example.android_proj.confirmation"
