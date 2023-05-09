@@ -19,6 +19,8 @@ drawable vol
 drawable white_text_view
 id AppointmentsAvailable
 id appointmentRecyclerView
+id appointment_location
+id appointment_time
 id confirm
 id container
 id course_code

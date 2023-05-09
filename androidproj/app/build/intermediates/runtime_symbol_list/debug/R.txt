@@ -2938,6 +2938,8 @@ int id animateToStart 0x7f080050
 int id antiClockwise 0x7f080051
 int id anticipate 0x7f080052
 int id appointmentRecyclerView 0x7f080053
+int id appointment_location 0x7f08020b
+int id appointment_time 0x7f08020c
 int id arc 0x7f080054
 int id asConfigured 0x7f080055
 int id async 0x7f080056

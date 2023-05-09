@@ -1,36 +1,37 @@
-com.example.android_proj.app-material-1.8.0-0 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\019cc3dd4fb8bc8d57267209bbc952f4\transformed\material-1.8.0\res
-com.example.android_proj.app-appcompat-1.6.1-1 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\027d63b97450f5c99867442753008976\transformed\appcompat-1.6.1\res
-com.example.android_proj.app-firebase-common-20.3.2-2 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\05fd39866e999765745363641799dd08\transformed\firebase-common-20.3.2\res
-com.example.android_proj.app-viewpager2-1.0.0-3 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\2dec6d7b91971f0dccc6d459cacca4b5\transformed\viewpager2-1.0.0\res
-com.example.android_proj.app-lifecycle-viewmodel-2.5.1-4 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\3280f28433f23f11da473fb5a5f146de\transformed\lifecycle-viewmodel-2.5.1\res
-com.example.android_proj.app-lifecycle-runtime-2.5.1-5 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\35f5cf9be948d8da36a2539e8ea1e5f5\transformed\lifecycle-runtime-2.5.1\res
-com.example.android_proj.app-drawerlayout-1.1.1-6 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\3fd16b6b37aa4f7f9a44717b8e6520b2\transformed\drawerlayout-1.1.1\res
-com.example.android_proj.app-fragment-1.3.6-7 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\4154304eaa9d65752d273c16c31fa379\transformed\fragment-1.3.6\res
-com.example.android_proj.app-emoji2-1.2.0-8 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\4e072dfcfe9fc84d148953ce3053fd24\transformed\emoji2-1.2.0\res
-com.example.android_proj.app-emoji2-views-helper-1.2.0-9 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\5ffe5cd49b8c3d3f69c271781a263c5c\transformed\emoji2-views-helper-1.2.0\res
-com.example.android_proj.app-annotation-experimental-1.3.0-10 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\6045844f10ba465083216868c90cea3b\transformed\annotation-experimental-1.3.0\res
-com.example.android_proj.app-startup-runtime-1.1.1-11 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\7331226833b182d4b331761b52ad1d68\transformed\startup-runtime-1.1.1\res
-com.example.android_proj.app-coordinatorlayout-1.1.0-12 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\853c99969b0b45e5b319265cd4a7699a\transformed\coordinatorlayout-1.1.0\res
-com.example.android_proj.app-lifecycle-livedata-core-2.5.1-13 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\8cfae13b6a9f6bee14f0983cebaacc44\transformed\lifecycle-livedata-core-2.5.1\res
-com.example.android_proj.app-appcompat-resources-1.6.1-14 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\8d50bfdab28dd20414b4dcad727f5802\transformed\appcompat-resources-1.6.1\res
-com.example.android_proj.app-core-ktx-1.9.0-15 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\95cfff3197d32b80145f83ec28cb175a\transformed\core-ktx-1.9.0\res
-com.example.android_proj.app-lifecycle-viewmodel-savedstate-2.5.1-16 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\9cd7718f71728120c6b305a1d3bc243c\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
-com.example.android_proj.app-constraintlayout-2.1.4-17 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\a6f33cbffcb582459f66d66f017e42b4\transformed\constraintlayout-2.1.4\res
-com.example.android_proj.app-activity-1.6.0-18 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\ac602fde30e3bb0b0be47ca63ebabc3e\transformed\activity-1.6.0\res
-com.example.android_proj.app-play-services-base-18.1.0-19 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\b104d8e0d87f9ad040aa90cb3cf86585\transformed\play-services-base-18.1.0\res
-com.example.android_proj.app-browser-1.4.0-20 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\c54abe6ee8b67ac47a9da420807a6c2d\transformed\browser-1.4.0\res
-com.example.android_proj.app-cardview-1.0.0-21 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\cb23818a80ccaa53da9c7d5d22a9ca33\transformed\cardview-1.0.0\res
-com.example.android_proj.app-transition-1.2.0-22 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\cf6f3471ac4b0fe42b28c0d65c08e7cf\transformed\transition-1.2.0\res
-com.example.android_proj.app-lifecycle-process-2.4.1-23 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\d4eee644590e6a3f16c624de4439670a\transformed\lifecycle-process-2.4.1\res
-com.example.android_proj.app-core-1.9.0-24 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\df573176e1b9ab5dac60f62d0a61d6c6\transformed\core-1.9.0\res
-com.example.android_proj.app-play-services-basement-18.1.0-25 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\eea355d3a4c6e0ac306da300d3d5dc2f\transformed\play-services-basement-18.1.0\res
-com.example.android_proj.app-savedstate-1.2.0-26 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\f0ab000a08aeeb793aaa7147edd11348\transformed\savedstate-1.2.0\res
-com.example.android_proj.app-recyclerview-1.1.0-27 C:\Users\Dhwani Patel\.gradle\caches\transforms-3\f563ac3783d8d4eb831a2d4eac65efe4\transformed\recyclerview-1.1.0\res
-com.example.android_proj.app-google-services-28 C:\Users\Dhwani Patel\StudioProjects\final-project\androidproj\app\build\generated\res\google-services\debug
-com.example.android_proj.app-pngs-29 C:\Users\Dhwani Patel\StudioProjects\final-project\androidproj\app\build\generated\res\pngs\debug
-com.example.android_proj.app-resValues-30 C:\Users\Dhwani Patel\StudioProjects\final-project\androidproj\app\build\generated\res\resValues\debug
-com.example.android_proj.app-packageDebugResources-31 C:\Users\Dhwani Patel\StudioProjects\final-project\androidproj\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.android_proj.app-packageDebugResources-32 C:\Users\Dhwani Patel\StudioProjects\final-project\androidproj\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.android_proj.app-merged_res-33 C:\Users\Dhwani Patel\StudioProjects\final-project\androidproj\app\build\intermediates\merged_res\debug
-com.example.android_proj.app-debug-34 C:\Users\Dhwani Patel\StudioProjects\final-project\androidproj\app\src\debug\res
-com.example.android_proj.app-main-35 C:\Users\Dhwani Patel\StudioProjects\final-project\androidproj\app\src\main\res
+com.example.android_proj.app-browser-1.4.0-0 /Users/emilyvo/.gradle/caches/transforms-3/184051246e1741ae90ceebd731eea3b3/transformed/browser-1.4.0/res
+com.example.android_proj.app-activity-1.6.0-1 /Users/emilyvo/.gradle/caches/transforms-3/1b83f1ba0b1cbe7aa8acdc987a1bc1bc/transformed/activity-1.6.0/res
+com.example.android_proj.app-viewpager2-1.0.0-2 /Users/emilyvo/.gradle/caches/transforms-3/1c1b30050f9f5ac6e6bcb79884ac7979/transformed/viewpager2-1.0.0/res
+com.example.android_proj.app-transition-1.2.0-3 /Users/emilyvo/.gradle/caches/transforms-3/2669086a4fe2a26a278471ff835d0333/transformed/transition-1.2.0/res
+com.example.android_proj.app-savedstate-1.2.0-4 /Users/emilyvo/.gradle/caches/transforms-3/28544316ff7d77860eec17c0b2c20432/transformed/savedstate-1.2.0/res
+com.example.android_proj.app-appcompat-resources-1.6.1-5 /Users/emilyvo/.gradle/caches/transforms-3/28744e6287a4575c590d77270e50c31a/transformed/appcompat-resources-1.6.1/res
+com.example.android_proj.app-core-ktx-1.9.0-6 /Users/emilyvo/.gradle/caches/transforms-3/354b118d14e6b766e5bafb7950152eda/transformed/core-ktx-1.9.0/res
+com.example.android_proj.app-lifecycle-viewmodel-savedstate-2.5.1-7 /Users/emilyvo/.gradle/caches/transforms-3/3ca765d4ff45b9d7335e0d1802e930ce/transformed/lifecycle-viewmodel-savedstate-2.5.1/res
+com.example.android_proj.app-emoji2-views-helper-1.2.0-8 /Users/emilyvo/.gradle/caches/transforms-3/3d9d0e983d3cd66ed773aa49c6cd0600/transformed/emoji2-views-helper-1.2.0/res
+com.example.android_proj.app-fragment-1.3.6-9 /Users/emilyvo/.gradle/caches/transforms-3/43dc6c4088574fd462ab8846981cdb14/transformed/fragment-1.3.6/res
+com.example.android_proj.app-lifecycle-livedata-core-2.5.1-10 /Users/emilyvo/.gradle/caches/transforms-3/4834ab84133c16faf1d32c4b18803273/transformed/lifecycle-livedata-core-2.5.1/res
+com.example.android_proj.app-appcompat-1.6.1-11 /Users/emilyvo/.gradle/caches/transforms-3/4c6e766cd79b89cbadda96d97bba7df9/transformed/appcompat-1.6.1/res
+com.example.android_proj.app-lifecycle-viewmodel-2.5.1-12 /Users/emilyvo/.gradle/caches/transforms-3/66327d0497ffe6b5b1def487d456f75c/transformed/lifecycle-viewmodel-2.5.1/res
+com.example.android_proj.app-emoji2-1.2.0-13 /Users/emilyvo/.gradle/caches/transforms-3/6a5511e755f0da052df976f56f00a85f/transformed/emoji2-1.2.0/res
+com.example.android_proj.app-play-services-base-18.1.0-14 /Users/emilyvo/.gradle/caches/transforms-3/86265cdbf0494f8ca4c851b844e69802/transformed/play-services-base-18.1.0/res
+com.example.android_proj.app-firebase-common-20.3.2-15 /Users/emilyvo/.gradle/caches/transforms-3/9090d164d2c1f871ec20d437fa3c504a/transformed/firebase-common-20.3.2/res
+com.example.android_proj.app-material-1.8.0-16 /Users/emilyvo/.gradle/caches/transforms-3/94b636954a1b5da07bf392aa613c0f8d/transformed/material-1.8.0/res
+com.example.android_proj.app-core-1.9.0-17 /Users/emilyvo/.gradle/caches/transforms-3/95e2bca30dca4829288dcc3b518e6d7b/transformed/core-1.9.0/res
+com.example.android_proj.app-play-services-basement-18.1.0-18 /Users/emilyvo/.gradle/caches/transforms-3/97f938344a41c88c7c6712bd1daa8cec/transformed/play-services-basement-18.1.0/res
+com.example.android_proj.app-annotation-experimental-1.3.0-19 /Users/emilyvo/.gradle/caches/transforms-3/99c034072ceaedbc6c4efa605e88c3a3/transformed/annotation-experimental-1.3.0/res
+com.example.android_proj.app-recyclerview-1.1.0-20 /Users/emilyvo/.gradle/caches/transforms-3/a8dd78de4c7073049224a25d84266aa5/transformed/recyclerview-1.1.0/res
+com.example.android_proj.app-coordinatorlayout-1.1.0-21 /Users/emilyvo/.gradle/caches/transforms-3/af67991e762ecc9e39b9f82bf38a4ffd/transformed/coordinatorlayout-1.1.0/res
+com.example.android_proj.app-lifecycle-process-2.4.1-22 /Users/emilyvo/.gradle/caches/transforms-3/b679fe3005de34221546ec18c7838195/transformed/lifecycle-process-2.4.1/res
+com.example.android_proj.app-drawerlayout-1.1.1-23 /Users/emilyvo/.gradle/caches/transforms-3/d5462aa2b17ec1ce132d7caafda23540/transformed/drawerlayout-1.1.1/res
+com.example.android_proj.app-constraintlayout-2.1.4-24 /Users/emilyvo/.gradle/caches/transforms-3/dbc2029522145d6c189b533fd9b07b1a/transformed/constraintlayout-2.1.4/res
+com.example.android_proj.app-startup-runtime-1.1.1-25 /Users/emilyvo/.gradle/caches/transforms-3/eeb88088243684117e40688bfc506295/transformed/startup-runtime-1.1.1/res
+com.example.android_proj.app-lifecycle-runtime-2.5.1-26 /Users/emilyvo/.gradle/caches/transforms-3/f4ba9b5ec8862d7912ac66fcfae9038a/transformed/lifecycle-runtime-2.5.1/res
+com.example.android_proj.app-cardview-1.0.0-27 /Users/emilyvo/.gradle/caches/transforms-3/f628d23c3b5e5f935b8c879c7368e7bc/transformed/cardview-1.0.0/res
+com.example.android_proj.app-google-services-28 /Users/emilyvo/final-project/androidproj/app/build/generated/res/google-services/debug
+com.example.android_proj.app-pngs-29 /Users/emilyvo/final-project/androidproj/app/build/generated/res/pngs/debug
+com.example.android_proj.app-resValues-30 /Users/emilyvo/final-project/androidproj/app/build/generated/res/resValues/debug
+com.example.android_proj.app-rs-31 /Users/emilyvo/final-project/androidproj/app/build/generated/res/rs/debug
+com.example.android_proj.app-packageDebugResources-32 /Users/emilyvo/final-project/androidproj/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.android_proj.app-packageDebugResources-33 /Users/emilyvo/final-project/androidproj/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.android_proj.app-merged_res-34 /Users/emilyvo/final-project/androidproj/app/build/intermediates/merged_res/debug
+com.example.android_proj.app-debug-35 /Users/emilyvo/final-project/androidproj/app/src/debug/res
+com.example.android_proj.app-main-36 /Users/emilyvo/final-project/androidproj/app/src/main/res

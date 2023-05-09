@@ -2939,6 +2939,8 @@ id animateToStart
 id antiClockwise
 id anticipate
 id appointmentRecyclerView
+id appointment_location
+id appointment_time
 id arc
 id asConfigured
 id async

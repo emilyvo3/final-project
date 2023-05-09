@@ -26,7 +26,6 @@ import java.util.Map;
 
 public class book_apt extends AppCompatActivity {
 
-    @SuppressLint("NotifyDataSetChanged")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,7 +59,7 @@ public class book_apt extends AppCompatActivity {
             }
 
             adapter.setAppointments(appointmentList); // Update the adapter's appointment list
-            adapter.notifyDataSetChanged(); // Notify the adapter that the data has changed
+            //adapter.notifyDataSetChanged(); // Notify the adapter that the data has changed
             recyclerView.invalidate();
 
         } catch (IOException e) {
@@ -75,7 +74,7 @@ public class book_apt extends AppCompatActivity {
         });
     }
 
-    private static class Appointment {
+    private class Appointment {
         private final String courseCode;
         private final String tutorFirstName;
         private final String tutorLastName;
@@ -112,7 +111,7 @@ public class book_apt extends AppCompatActivity {
     }
 
 
-    private static class AppointmentAdapter extends RecyclerView.Adapter<AppointmentAdapter.ViewHolder> {
+    public class AppointmentAdapter extends RecyclerView.Adapter<AppointmentAdapter.ViewHolder> {
         private List<Appointment> appointments;
         //private Context context;
 
@@ -131,12 +130,11 @@ public class book_apt extends AppCompatActivity {
             return new ViewHolder(view);
         }
 
-        @SuppressLint("SetTextI18n")
         @Override
         public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
             Appointment appointment = appointments.get(position);
             holder.courseCode.setText(appointment.getCourseCode());
-            holder.tutorName.setText(appointment.getTutorFirstName() + " " + appointment.getTutorLastName());
+            holder.tutorName.setText(String.format("%s %s", appointment.getTutorFirstName(), appointment.getTutorLastName()));
             holder.appointmentTime.setText(appointment.getAppointmentTime());
             holder.appointmentLocation.setText(appointment.getAppointmentLocation());
         }
@@ -156,33 +154,15 @@ public class book_apt extends AppCompatActivity {
                 super(itemView);
                 courseCode = itemView.findViewById(R.id.course_code);
                 tutorName = itemView.findViewById(R.id.tutor_name);
-                appointmentTime = itemView.findViewById(R.id.time);
-                appointmentLocation = itemView.findViewById(R.id.location);
+                appointmentTime = itemView.findViewById(R.id.appointment_time);
+                appointmentLocation = itemView.findViewById(R.id.appointment_location);
             }
 
-            @SuppressLint("SetTextI18n")
             public void bind(Appointment appointment) {
                 courseCode.setText(appointment.getCourseCode());
-                tutorName.setText(appointment.getTutorFirstName() + " " + appointment.getTutorLastName());
+                tutorName.setText(String.format("%s %s", appointment.getTutorFirstName(), appointment.getTutorLastName()));
                 appointmentTime.setText(appointment.getAppointmentTime());
                 appointmentLocation.setText(appointment.getAppointmentLocation());
-            }
-
-            public View getView(int position, View convertView, ViewGroup parent) {
-                if (convertView == null) {
-                    convertView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_appointment, parent, false);
-                }
-
-                Appointment appointment = getItem(position);
-
-                // Bind the appointment data to the views in the layout
-                bind(appointment);
-
-                return convertView;
-            }
-
-            private Appointment getItem(int position) {
-                return null; // Implement this method to return the appointment at the given position
             }
         }
     }
