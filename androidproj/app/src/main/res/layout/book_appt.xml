@@ -53,11 +53,12 @@
         app:layout_constraintStart_toStartOf="@+id/AppointmentsAvailable"
         app:layout_constraintTop_toBottomOf="@+id/AppointmentsAvailable"
         app:layout_constraintVertical_bias="0.555" />
+
     <include
         android:id="@+id/include"
         layout="@layout/item_appointment"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="-63dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <LinearLayout
         android:id="@+id/container"
