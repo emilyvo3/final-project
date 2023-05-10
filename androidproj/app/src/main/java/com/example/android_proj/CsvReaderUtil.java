@@ -3,6 +3,7 @@ package com.example.android_proj;
 import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvException;
 
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -11,9 +12,9 @@ import java.util.List;
 import java.util.Map;
 
 public class CsvReaderUtil {
-    public static Map<String, List<Map<String, String>>>  readCsv(String filePath) throws IOException {
+    public static Map<String, List<Map<String, String>>>  readCsv(File file) throws IOException {
         Map<String, List<Map<String, String>>> multimap = new HashMap<>();
-        try (CSVReader reader = new CSVReader(new FileReader(filePath))) {
+        try (CSVReader reader = new CSVReader(new FileReader(file))) {
 
 
             // Read in data from file or other source, and split into rows

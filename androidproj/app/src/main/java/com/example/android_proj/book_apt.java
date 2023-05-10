@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
@@ -24,13 +25,14 @@ public class book_apt extends AppCompatActivity {
 
         LinearLayout container = findViewById(R.id.container);
 
-        String filePath = "/androidproj/app/sampledata/ASC.csv";
+        //String filePath = "/androidproj/app/sampledata/ASC.csv";
+        File file = new File(getFilesDir(),"sampledata/ASC.csv");
 
         try {
             // Get the list of courses from your desired source
             //String coursesList = Member.getCoursesList();
-            String[] courses = Member.getCoursesList().split(",\\s*");
-            Map<String, List<Map<String, String>>> data = CsvReaderUtil.readCsv(filePath);
+            String[] courses = Member.getCoursesList().split(",\\s");
+            Map<String, List<Map<String, String>>> data = CsvReaderUtil.readCsv(file);
 
             // Get the filtered data for each course code
             for (String course:courses) {
