@@ -2939,8 +2939,6 @@ id animateToStart
 id antiClockwise
 id anticipate
 id appointmentRecyclerView
-id appointment_location
-id appointment_time
 id arc
 id asConfigured
 id async
@@ -2964,6 +2962,7 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id buttonContainer
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2999,6 +2998,9 @@ id continuousVelocity
 id coordinator
 id cos
 id counterclockwise
+id courseButtonsLayout
+id courseEditText
+id courseTextView
 id course_code
 id coursesList
 id coursesNames
@@ -3095,7 +3097,6 @@ id ignore
 id ignoreRequest
 id image
 id immediateStop
-id include
 id included
 id indeterminate
 id info
@@ -3114,11 +3115,11 @@ id light
 id line1
 id line3
 id linear
-id linearLayout
 id listMode
 id list_item
 id location
 id m3_side_sheet
+id mainLayout
 id marquee
 id masked
 id match_constraint
@@ -3303,6 +3304,7 @@ id stop
 id stretch
 id submenuarrow
 id submit
+id submitButton
 id submit_area
 id supportScrollUp
 id tabMode
@@ -3508,7 +3510,6 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout homepage
-layout item_appointment
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3575,6 +3576,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw firebase_common_keep
+raw input
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
