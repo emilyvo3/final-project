@@ -1,6 +1,6 @@
 package com.example.android_proj;
 
-import androidx.annotation.NonNull;
+//import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -36,13 +36,13 @@ public class student_input extends AppCompatActivity {
         reff = FirebaseDatabase.getInstance().getReference().child("User Input");
         reff.addValueEventListener(new ValueEventListener() {
             @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+            public void onDataChange(DataSnapshot dataSnapshot) {
                 //DataSnapshot dataSnapshot = null;
                 if(dataSnapshot.exists())
                     max_id = dataSnapshot.getChildrenCount();
             }
             @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
+            public void onCancelled(DatabaseError databaseError) {
 
             }
         });

@@ -44,8 +44,6 @@ public class CsvReaderUtil {
                 }
             }
 
-
-
         } catch (IOException | CsvException e) {
             e.printStackTrace();
         }

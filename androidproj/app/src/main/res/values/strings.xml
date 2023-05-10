@@ -2,4 +2,5 @@
     <string name="app_name">android-proj</string>
     <string name="submit">Submit</string>
     <string name="appointments_available">Appointments Available:</string>
+    <string name="tutor_name_format">%s %s</string>
 </resources>

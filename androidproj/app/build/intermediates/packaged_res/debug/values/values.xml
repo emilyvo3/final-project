@@ -27,6 +27,7 @@
     <string name="google_storage_bucket" translatable="false">volverse-b6b3d.appspot.com</string>
     <string name="project_id" translatable="false">volverse-b6b3d</string>
     <string name="submit">Submit</string>
+    <string name="tutor_name_format">%s %s</string>
     <style name="Theme.Androidproj" parent="Theme.MaterialComponents.Light.NoActionBar">
         
         <item name="colorPrimary">@color/TN_orange</item>
