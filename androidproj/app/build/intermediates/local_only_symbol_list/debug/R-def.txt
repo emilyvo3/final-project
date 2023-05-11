@@ -20,7 +20,6 @@ drawable white_text_view
 id AppointmentsAvailable
 id appointmentRecyclerView
 id aptDetails
-id buttonContainer
 id confirm
 id container
 id courseButtonsLayout
@@ -36,7 +35,6 @@ id location
 id mainLayout
 id start
 id submit
-id textBox
 id textBoxName
 id textView
 id time

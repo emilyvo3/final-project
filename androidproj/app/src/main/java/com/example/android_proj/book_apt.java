@@ -38,7 +38,7 @@ public class book_apt extends AppCompatActivity {
 
         //courseEditText = findViewById(R.id.courseEditText);
         //Button submitButton = findViewById(R.id.submitButton);
-        LinearLayout buttonContainer = findViewById(R.id.buttonContainer);
+        //LinearLayout buttonContainer = findViewById(R.id.buttonContainer);
         courseTextView = findViewById(R.id.courseTextView);
         submit = findViewById(R.id.submit);
 

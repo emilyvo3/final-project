@@ -41,9 +41,9 @@ public class confirmation extends AppCompatActivity {
 
         Button backButton = findViewById(R.id.goback);
         backButton.setOnClickListener(v -> {
-            Intent intent = new Intent(confirmation.this, book_apt.class);
-            startActivity(intent);
+            finish(); // Close the current activity and return to the previous one
         });
+
     }
 
 }
