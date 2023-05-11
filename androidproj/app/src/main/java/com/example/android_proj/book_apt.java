@@ -23,17 +23,10 @@ import java.util.List;
 public class book_apt extends AppCompatActivity {
 
     private EditText courseEditText;
-
-    filteredData fData;
-
-
+    private filteredData fData;
     private TextView courseTextView;
-
     private Button submit;
-
     private final List<dataSample> dataSamples = new ArrayList<>();
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,16 +39,15 @@ public class book_apt extends AppCompatActivity {
         courseTextView = findViewById(R.id.courseTextView);
         submit = findViewById(R.id.submit);
 
+        fData = new filteredData(); // Instantiate the fData object
+
         readData();
 
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String inputCourses = courseEditText.getText().toString();
-                //String inputCourses = member.getCoursesList();
                 filterAndDisplayCourses(inputCourses);
-
-
             }
         });
     }
@@ -133,9 +125,12 @@ public class book_apt extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(book_apt.this, confirmation.class);
+                // Pass the selected data to the confirmation activity
+                intent.putExtra("selectedData", (CharSequence) fData.getData());
                 startActivity(intent);
             }
         });
+
     }
 }
 

@@ -12,21 +12,23 @@ import android.widget.Toast;
 
 public class confirmation extends AppCompatActivity {
 
-    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        filteredData fData = new filteredData();
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.confirmation);
 
-        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) TextView textView = (TextView) findViewById(R.id.aptDetails);
-        textView.setText(fData.getName()+"'s Appointment Details: \n");
-        textView.setText("Course: " + fData.getData().getCourse());
-        textView.setText("Tutor: " + fData.getData().getFirstName() + " " + fData.getData().getLastName()+ "\n");
-        textView.setText("Time: " + fData.getData().getTime());
-        textView.setText("Location: " + fData.getData().getLocation());
+        TextView textView = findViewById(R.id.aptDetails);
 
+        // Retrieve the selected data from the intent
+        dataSample selectedData = getIntent().getParcelableExtra("selectedData");
+
+        if (selectedData != null) {
+            textView.setText(selectedData.getFirstName() + "'s Appointment Details:\n");
+            textView.append("Course: " + selectedData.getCourse() + "\n");
+            textView.append("Tutor: " + selectedData.getFirstName() + " " + selectedData.getLastName() + "\n");
+            textView.append("Time: " + selectedData.getTime() + "\n");
+            textView.append("Location: " + selectedData.getLocation());
+        }
 
         Button confirmButton = findViewById(R.id.confirm);
         confirmButton.setOnClickListener(v -> {
@@ -41,4 +43,5 @@ public class confirmation extends AppCompatActivity {
             startActivity(intent);
         });
     }
+
 }
