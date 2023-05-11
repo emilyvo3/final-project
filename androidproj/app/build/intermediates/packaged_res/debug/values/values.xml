@@ -14,6 +14,7 @@
     <item name="course_code" type="id"/>
     <item name="date" type="id"/>
     <item name="location" type="id"/>
+    <item name="textView" type="id"/>
     <item name="time" type="id"/>
     <item name="tutor_name" type="id"/>
     <string name="app_name">android-proj</string>

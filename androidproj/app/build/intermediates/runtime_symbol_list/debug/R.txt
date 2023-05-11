@@ -2938,6 +2938,7 @@ int id animateToStart 0x7f080050
 int id antiClockwise 0x7f080051
 int id anticipate 0x7f080052
 int id appointmentRecyclerView 0x7f080053
+int id aptDetails 0x7f080210
 int id arc 0x7f080054
 int id asConfigured 0x7f080055
 int id async 0x7f080056
@@ -3045,7 +3046,6 @@ int id easeInOut 0x7f0800bb
 int id easeOut 0x7f0800bc
 int id east 0x7f0800bd
 int id editTextTextPersonName4 0x7f0800be
-int id editTextTextPersonName7 0x7f0800bf
 int id edit_query 0x7f0800c0
 int id elastic 0x7f0800c1
 int id embed 0x7f0800c2
@@ -3323,12 +3323,13 @@ int id tag_window_insets_animation_callback 0x7f0801d1
 int id text 0x7f0801d2
 int id text2 0x7f0801d3
 int id textBox 0x7f0801d4
-int id textBoxNum 0x7f0801d5
+int id textBoxName 0x7f08020f
 int id textEnd 0x7f0801d6
 int id textSpacerNoButtons 0x7f0801d7
 int id textSpacerNoTitle 0x7f0801d8
 int id textStart 0x7f0801d9
 int id textTop 0x7f0801da
+int id textView 0x7f080211
 int id text_input_end_icon 0x7f0801db
 int id text_input_error_icon 0x7f0801dc
 int id text_input_start_icon 0x7f0801dd

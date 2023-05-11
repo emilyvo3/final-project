@@ -7,4 +7,5 @@
     <item name="location" type="id" />
     <item name="appointmentRecyclerView" type="id" />
     <item name="tutor_name" type="id" />
+    <item name="textView" type="id" />
 </resources>

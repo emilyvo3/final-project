@@ -2,6 +2,8 @@ package com.example.android_proj;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -21,11 +23,17 @@ import java.util.List;
 public class book_apt extends AppCompatActivity {
 
     private EditText courseEditText;
-    private Button submitButton;
-    private LinearLayout buttonContainer;
+
+    filteredData fData;
+
+
     private TextView courseTextView;
 
+    private Button submit;
+
     private final List<dataSample> dataSamples = new ArrayList<>();
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,9 +41,10 @@ public class book_apt extends AppCompatActivity {
         setContentView(R.layout.book_appt);
 
         courseEditText = findViewById(R.id.courseEditText);
-        submitButton = findViewById(R.id.submitButton);
-        buttonContainer = findViewById(R.id.buttonContainer);
+        Button submitButton = findViewById(R.id.submitButton);
+        LinearLayout buttonContainer = findViewById(R.id.buttonContainer);
         courseTextView = findViewById(R.id.courseTextView);
+        submit = findViewById(R.id.submit);
 
         readData();
 
@@ -43,7 +52,10 @@ public class book_apt extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String inputCourses = courseEditText.getText().toString();
+                //String inputCourses = member.getCoursesList();
                 filterAndDisplayCourses(inputCourses);
+
+
             }
         });
     }
@@ -73,6 +85,7 @@ public class book_apt extends AppCompatActivity {
         }
     }
 
+    @SuppressLint("SetTextI18n")
     private void filterAndDisplayCourses(String inputCourses) {
         LinearLayout layout = findViewById(R.id.courseButtonsLayout);
         layout.removeAllViews(); // Clear any previously displayed buttons
@@ -96,7 +109,10 @@ public class book_apt extends AppCompatActivity {
                             // Handle button click here
                             // You can save the data/info for later use
                             // Example: String selectedCourse = button.getText().toString();
+                            fData.setData(sample);
                             Toast.makeText(book_apt.this, "Appointment selected: " + course + ": " + lastName + ", " + firstName, Toast.LENGTH_SHORT).show();
+
+
                         }
                     });
                     layout.addView(button); // Add the button to the layout
@@ -112,6 +128,14 @@ public class book_apt extends AppCompatActivity {
             // Clear the text view when buttons are displayed
             courseTextView.setText("");
         }
+
+        submit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(book_apt.this, confirmation.class);
+                startActivity(intent);
+            }
+        });
     }
 }
 

@@ -1,21 +1,17 @@
 package com.example.android_proj;
 
 public class Member {
-    private static String UserName;
+    //private static String UserName;
     private static String CoursesList;
 
     public Member() {
     }
 
-    public String getUserName() {
-        return UserName;
-    }
+    //public String getUserName() {return UserName;}
 
-    public void setUserName(String userName) {
-        UserName = userName;
-    }
+    //public void setUserName(String userName) {UserName = userName;}
 
-    public static String getCoursesList() {
+    public String getCoursesList() {
         return CoursesList;
     }
 

@@ -2939,6 +2939,7 @@ id animateToStart
 id antiClockwise
 id anticipate
 id appointmentRecyclerView
+id aptDetails
 id arc
 id asConfigured
 id async
@@ -3046,7 +3047,6 @@ id easeInOut
 id easeOut
 id east
 id editTextTextPersonName4
-id editTextTextPersonName7
 id edit_query
 id elastic
 id embed
@@ -3324,12 +3324,13 @@ id tag_window_insets_animation_callback
 id text
 id text2
 id textBox
-id textBoxNum
+id textBoxName
 id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

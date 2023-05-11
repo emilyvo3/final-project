@@ -19,6 +19,7 @@ drawable vol
 drawable white_text_view
 id AppointmentsAvailable
 id appointmentRecyclerView
+id aptDetails
 id buttonContainer
 id confirm
 id container
@@ -31,7 +32,6 @@ id coursesNames
 id coursesNums
 id date
 id editTextTextPersonName4
-id editTextTextPersonName7
 id goback
 id location
 id mainLayout
@@ -39,7 +39,8 @@ id start
 id submit
 id submitButton
 id textBox
-id textBoxNum
+id textBoxName
+id textView
 id time
 id tlogo
 id tutor_name

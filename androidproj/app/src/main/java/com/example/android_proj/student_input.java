@@ -22,6 +22,8 @@ public class student_input extends AppCompatActivity {
     Button submit;
     DatabaseReference reff;
     Member member;
+
+    filteredData fData;
     long max_id = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,9 +54,9 @@ public class student_input extends AppCompatActivity {
             public void onClick(View v) {
                 //int number = Integer.parseInt(textBoxName.getText().toString().trim());
                 String name = textBoxName.getText().toString().trim();
-                String crs = coursesList.getText().toString().trim();
+                String crs = coursesList.getText().toString();
 
-                member.setUserName(name);
+                fData.setName(name);
                 member.setCoursesList(crs);
                 reff.child("Student " + (max_id + 1)).setValue(member);
                 reff.child("Student " + (max_id + 1)).child("coursesList").setValue(crs);
