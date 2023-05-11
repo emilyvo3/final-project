@@ -47,6 +47,7 @@ public class book_apt extends AppCompatActivity {
         readData();
 
         String inputCourses = getIntent().getStringExtra("crsName");
+
         filterAndDisplayCourses(inputCourses);
         /*submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -86,6 +87,7 @@ public class book_apt extends AppCompatActivity {
     private void filterAndDisplayCourses(String inputCourses) {
         LinearLayout layout = findViewById(R.id.courseButtonsLayout);
         layout.removeAllViews(); // Clear any previously displayed buttons
+        String name = getIntent().getStringExtra("name");
 
         for (dataSample sample : dataSamples) {
             String course = sample.getCourse();
@@ -128,6 +130,7 @@ public class book_apt extends AppCompatActivity {
                 if (selectedAppointment != null) {
                     Intent intent = new Intent(book_apt.this, confirmation.class);
                     intent.putExtra("selectedData", selectedAppointment);
+                    intent.putExtra("name", name);
                     startActivity(intent);
                 } else {
                     Toast.makeText(book_apt.this, "Please select an appointment", Toast.LENGTH_SHORT).show();

@@ -13,7 +13,7 @@
         android:layout_height="67dp"
         android:layout_marginBottom="36dp"
         android:background="@drawable/buttons"
-        android:text="Go Back"
+        android:text="@string/go_back"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/aptDetails"
@@ -25,11 +25,11 @@
     <TextView
         android:id="@+id/aptDetails"
         android:layout_width="378dp"
-        android:layout_height="388dp"
+        android:layout_height="wrap_content"
         android:background="@drawable/white_text_view"
-        android:ems="30"
         android:gravity="left"
         android:inputType="textPersonName"
+        android:maxLines="5"
         android:textColorHighlight="#FF9800"
         android:textSize="20sp"
         android:textColor="@color/black"
@@ -39,7 +39,9 @@
         app:layout_constraintHorizontal_bias="0.575"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.833" />
+        app:layout_constraintVertical_bias="0.833"
+        tools:ignore="RtlHardcoded,TextViewEdits" />
+
 
     <EditText
         android:id="@+id/editTextTextPersonName4"
@@ -49,7 +51,7 @@
         android:ems="30"
         android:gravity="center"
         android:inputType="textPersonName"
-        android:text="Book Appointments:"
+        android:text="@string/book_appointments"
         android:textColor="@color/white"
         android:textColorHighlight="#FF9800"
         android:textSize="28sp"
@@ -58,7 +60,9 @@
         app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.672" />
+        app:layout_constraintVertical_bias="0.672"
+        android:autofillHints=""
+        tools:ignore="LabelFor" />
 
     <Button
         android:id="@+id/confirm"
@@ -66,7 +70,7 @@
         android:layout_height="67dp"
         android:layout_marginBottom="120dp"
         android:background="@drawable/buttons"
-        android:text="Confirm"
+        android:text="@string/confirm"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/aptDetails"

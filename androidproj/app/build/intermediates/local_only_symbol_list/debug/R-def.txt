@@ -50,9 +50,12 @@ mipmap ic_launcher_round
 raw input
 string app_name
 string appointments_available
+string book_appointments
+string confirm
 string default_web_client_id
 string firebase_database_url
 string gcm_defaultSenderId
+string go_back
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
