@@ -12,12 +12,12 @@
         "source": "C:\\Users\\Dhwani Patel\\.gradle\\daemon\\8.0\\com.example.android_proj.app-main-35:\\layout\\book_appt.xml"
     },
     {
-        "merged": "C:\\Users\\Dhwani Patel\\.gradle\\daemon\\8.0\\com.example.android_proj.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Dhwani Patel\\.gradle\\daemon\\8.0\\com.example.android_proj.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\Dhwani Patel\\.gradle\\daemon\\8.0\\com.example.android_proj.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Dhwani Patel\\.gradle\\daemon\\8.0\\com.example.android_proj.app-main-35:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Dhwani Patel\\.gradle\\daemon\\8.0\\com.example.android_proj.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Dhwani Patel\\.gradle\\daemon\\8.0\\com.example.android_proj.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\Dhwani Patel\\.gradle\\daemon\\8.0\\com.example.android_proj.app-merged_res-33:\\mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -32,12 +32,12 @@
         "source": "C:\\Users\\Dhwani Patel\\.gradle\\daemon\\8.0\\com.example.android_proj.app-main-35:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Dhwani Patel\\.gradle\\daemon\\8.0\\com.example.android_proj.app-merged_res-33:\\drawable_orange_text_view.xml.flat",
-        "source": "C:\\Users\\Dhwani Patel\\.gradle\\daemon\\8.0\\com.example.android_proj.app-main-35:\\drawable\\orange_text_view.xml"
-    },
-    {
         "merged": "C:\\Users\\Dhwani Patel\\.gradle\\daemon\\8.0\\com.example.android_proj.app-merged_res-33:\\drawable-ldpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\Dhwani Patel\\.gradle\\daemon\\8.0\\com.example.android_proj.app-pngs-29:\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Dhwani Patel\\.gradle\\daemon\\8.0\\com.example.android_proj.app-merged_res-33:\\drawable_orange_text_view.xml.flat",
+        "source": "C:\\Users\\Dhwani Patel\\.gradle\\daemon\\8.0\\com.example.android_proj.app-main-35:\\drawable\\orange_text_view.xml"
     },
     {
         "merged": "C:\\Users\\Dhwani Patel\\.gradle\\daemon\\8.0\\com.example.android_proj.app-merged_res-33:\\drawable_smokey_text_view.xml.flat",
