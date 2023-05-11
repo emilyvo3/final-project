@@ -40,10 +40,6 @@
         "source": "/Users/emilyvo/.gradle/daemon/8.0/com.example.android_proj.app-pngs-29:/drawable-ldpi/ic_launcher_background.png"
     },
     {
-        "merged": "com.example.android_proj.app-merged_res-34:/layout_student_input.xml.flat",
-        "source": "com.example.android_proj.app-main-36:/layout/student_input.xml"
-    },
-    {
         "merged": "/Users/emilyvo/.gradle/daemon/8.0/com.example.android_proj.app-merged_res-34:/layout_book_appt.xml.flat",
         "source": "/Users/emilyvo/.gradle/daemon/8.0/com.example.android_proj.app-main-36:/layout/book_appt.xml"
     },
@@ -72,16 +68,20 @@
         "source": "/Users/emilyvo/.gradle/daemon/8.0/com.example.android_proj.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
+        "merged": "com.example.android_proj.app-merged_res-34:/layout_confirmation.xml.flat",
+        "source": "com.example.android_proj.app-main-36:/layout/confirmation.xml"
+    },
+    {
+        "merged": "/Users/emilyvo/.gradle/daemon/8.0/com.example.android_proj.app-merged_res-34:/layout_confirmation.xml.flat",
+        "source": "/Users/emilyvo/.gradle/daemon/8.0/com.example.android_proj.app-main-36:/layout/confirmation.xml"
+    },
+    {
         "merged": "/Users/emilyvo/.gradle/daemon/8.0/com.example.android_proj.app-merged_res-34:/drawable-anydpi-v21_ic_launcher_background.xml.flat",
         "source": "/Users/emilyvo/.gradle/daemon/8.0/com.example.android_proj.app-pngs-29:/drawable-anydpi-v21/ic_launcher_background.xml"
     },
     {
         "merged": "/Users/emilyvo/.gradle/daemon/8.0/com.example.android_proj.app-merged_res-34:/drawable-xxhdpi_ic_launcher_background.png.flat",
         "source": "/Users/emilyvo/.gradle/daemon/8.0/com.example.android_proj.app-pngs-29:/drawable-xxhdpi/ic_launcher_background.png"
-    },
-    {
-        "merged": "/Users/emilyvo/.gradle/daemon/8.0/com.example.android_proj.app-merged_res-34:/layout_confirmation.xml.flat",
-        "source": "/Users/emilyvo/.gradle/daemon/8.0/com.example.android_proj.app-main-36:/layout/confirmation.xml"
     },
     {
         "merged": "/Users/emilyvo/.gradle/daemon/8.0/com.example.android_proj.app-merged_res-34:/layout_student_input.xml.flat",

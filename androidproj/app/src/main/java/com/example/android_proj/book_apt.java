@@ -26,6 +26,9 @@ public class book_apt extends AppCompatActivity {
     private filteredData fData;
     private TextView courseTextView;
     private Button submit;
+
+    private dataSample selectedAppointment;
+
     private final List<dataSample> dataSamples = new ArrayList<>();
 
     @Override
@@ -98,15 +101,11 @@ public class book_apt extends AppCompatActivity {
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
-                            // Handle button click here
-                            // You can save the data/info for later use
-                            // Example: String selectedCourse = button.getText().toString();
-                            fData.setData(sample);
+                            selectedAppointment = sample;
                             Toast.makeText(book_apt.this, "Appointment selected: " + course + ": " + lastName + ", " + firstName, Toast.LENGTH_SHORT).show();
-
-
                         }
                     });
+
                     layout.addView(button); // Add the button to the layout
                     break; // Exit the loop after finding a match for the current course
                 }
@@ -124,12 +123,16 @@ public class book_apt extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(book_apt.this, confirmation.class);
-                // Pass the selected data to the confirmation activity
-                intent.putExtra("selectedData", (CharSequence) fData.getData());
-                startActivity(intent);
+                if (selectedAppointment != null) {
+                    Intent intent = new Intent(book_apt.this, confirmation.class);
+                    intent.putExtra("selectedData", selectedAppointment);
+                    startActivity(intent);
+                } else {
+                    Toast.makeText(book_apt.this, "Please select an appointment", Toast.LENGTH_SHORT).show();
+                }
             }
         });
+
 
     }
 }

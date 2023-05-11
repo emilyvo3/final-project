@@ -22,6 +22,7 @@ public class confirmation extends AppCompatActivity {
         // Retrieve the selected data from the intent
         dataSample selectedData = getIntent().getParcelableExtra("selectedData");
 
+
         if (selectedData != null) {
             textView.setText(selectedData.getFirstName() + "'s Appointment Details:\n");
             textView.append("Course: " + selectedData.getCourse() + "\n");
@@ -29,6 +30,7 @@ public class confirmation extends AppCompatActivity {
             textView.append("Time: " + selectedData.getTime() + "\n");
             textView.append("Location: " + selectedData.getLocation());
         }
+
 
         Button confirmButton = findViewById(R.id.confirm);
         confirmButton.setOnClickListener(v -> {
