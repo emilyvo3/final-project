@@ -1,18 +1,18 @@
 package com.example.android_proj;
 
 public class Member {
-    private Integer NumberOfCourses;
+    private static String UserName;
     private static String CoursesList;
 
     public Member() {
     }
 
-    public Integer getNumberOfCourses() {
-        return NumberOfCourses;
+    public String getUserName() {
+        return UserName;
     }
 
-    public void setNumberOfCourses(Integer numberOfCourses) {
-        NumberOfCourses = numberOfCourses;
+    public void setUserName(String userName) {
+        UserName = userName;
     }
 
     public static String getCoursesList() {

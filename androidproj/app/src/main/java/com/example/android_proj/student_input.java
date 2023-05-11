@@ -18,7 +18,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 public class student_input extends AppCompatActivity {
-    EditText textBoxNum, coursesList;
+    EditText textBoxName, coursesList;
     Button submit;
     DatabaseReference reff;
     Member member;
@@ -29,7 +29,7 @@ public class student_input extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.student_input);
 
-        textBoxNum = (EditText)findViewById(R.id.textBoxNum);
+        textBoxName = (EditText)findViewById(R.id.textBoxName);
         coursesList = (EditText)findViewById(R.id.coursesList);
         submit = (Button)findViewById(R.id.submit);
         member = new Member();
@@ -50,10 +50,11 @@ public class student_input extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int number = Integer.parseInt(textBoxNum.getText().toString().trim());
+                //int number = Integer.parseInt(textBoxName.getText().toString().trim());
+                String name = textBoxName.getText().toString().trim();
                 String crs = coursesList.getText().toString().trim();
 
-                member.setNumberOfCourses(number);
+                member.setUserName(name);
                 member.setCoursesList(crs);
                 reff.child("Student " + (max_id + 1)).setValue(member);
                 reff.child("Student " + (max_id + 1)).child("coursesList").setValue(crs);
