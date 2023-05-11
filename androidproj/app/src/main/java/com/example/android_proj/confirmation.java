@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 public class confirmation extends AppCompatActivity {
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,10 +22,11 @@ public class confirmation extends AppCompatActivity {
 
         // Retrieve the selected data from the intent
         dataSample selectedData = getIntent().getParcelableExtra("selectedData");
+        String uName = getIntent().getStringExtra("name");
 
 
         if (selectedData != null) {
-            textView.setText(selectedData.getFirstName() + "'s Appointment Details:\n");
+            textView.setText( uName + "'s Appointment Details:\n");
             textView.append("Course: " + selectedData.getCourse() + "\n");
             textView.append("Tutor: " + selectedData.getFirstName() + " " + selectedData.getLastName() + "\n");
             textView.append("Time: " + selectedData.getTime() + "\n");

@@ -3,4 +3,7 @@
     <string name="submit">Submit</string>
     <string name="appointments_available">Appointments Available:</string>
     <string name="tutor_name_format">%s %s</string>
+    <string name="confirm">Confirm</string>
+    <string name="book_appointments">Book Appointments:</string>
+    <string name="go_back">Go Back</string>
 </resources>

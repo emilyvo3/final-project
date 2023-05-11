@@ -65,6 +65,7 @@ public class student_input extends AppCompatActivity {
 
                 Intent intent = new Intent(student_input.this, book_apt.class);
                 intent.putExtra("crsName", crs);
+                intent.putExtra("name", name);
                 startActivity(intent);
             }
         });
