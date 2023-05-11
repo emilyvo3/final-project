@@ -5,9 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -21,9 +19,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class book_apt extends AppCompatActivity {
-
-    private EditText courseEditText;
-    private filteredData fData;
     private TextView courseTextView;
     private Button submit;
 
@@ -36,26 +31,14 @@ public class book_apt extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.book_appt);
 
-        //courseEditText = findViewById(R.id.courseEditText);
-        //Button submitButton = findViewById(R.id.submitButton);
-        //LinearLayout buttonContainer = findViewById(R.id.buttonContainer);
         courseTextView = findViewById(R.id.courseTextView);
         submit = findViewById(R.id.submit);
-
-        fData = new filteredData(); // Instantiate the fData object
 
         readData();
 
         String inputCourses = getIntent().getStringExtra("crsName");
 
         filterAndDisplayCourses(inputCourses);
-        /*submitButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String inputCourses = getIntent().getStringExtra("name");
-                filterAndDisplayCourses(inputCourses);
-            }
-        });*/
     }
 
     private void readData() {
@@ -93,7 +76,6 @@ public class book_apt extends AppCompatActivity {
             String course = sample.getCourse();
             String lastName = sample.getLastName();
             String firstName = sample.getFirstName();
-            //String zoom = sample.getZoom();
             String location = sample.getLocation();
             String time = sample.getTime();
 
@@ -102,12 +84,9 @@ public class book_apt extends AppCompatActivity {
                 if (course.equalsIgnoreCase(inputCourse.trim())) {
                     Button button = new Button(this);
                     button.setText(course + ": " + lastName + ", " + firstName + " " + location + " " + time);
-                    button.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View v) {
-                            selectedAppointment = sample;
-                            Toast.makeText(book_apt.this, "Appointment selected: " + course + ": " + lastName + ", " + firstName, Toast.LENGTH_SHORT).show();
-                        }
+                    button.setOnClickListener(v -> {
+                        selectedAppointment = sample;
+                        Toast.makeText(book_apt.this, "Appointment selected: " + course + ": " + lastName + ", " + firstName, Toast.LENGTH_SHORT).show();
                     });
 
                     layout.addView(button); // Add the button to the layout
@@ -124,21 +103,16 @@ public class book_apt extends AppCompatActivity {
             courseTextView.setText("");
         }
 
-        submit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (selectedAppointment != null) {
-                    Intent intent = new Intent(book_apt.this, confirmation.class);
-                    intent.putExtra("selectedData", selectedAppointment);
-                    intent.putExtra("name", name);
-                    startActivity(intent);
-                } else {
-                    Toast.makeText(book_apt.this, "Please select an appointment", Toast.LENGTH_SHORT).show();
-                }
+        submit.setOnClickListener(v -> {
+            if (selectedAppointment != null) {
+                Intent intent = new Intent(book_apt.this, confirmation.class);
+                intent.putExtra("selectedData", selectedAppointment);
+                intent.putExtra("name", name);
+                startActivity(intent);
+            } else {
+                Toast.makeText(book_apt.this, "Please select an appointment", Toast.LENGTH_SHORT).show();
             }
         });
-
-
     }
 }
 

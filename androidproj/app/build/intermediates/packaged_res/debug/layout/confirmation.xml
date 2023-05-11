@@ -20,61 +20,57 @@
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="@+id/aptDetails"
         app:layout_constraintTop_toBottomOf="@+id/aptDetails"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.981" />
 
     <TextView
         android:id="@+id/aptDetails"
-        android:layout_width="378dp"
-        android:layout_height="wrap_content"
+        android:layout_width="370dp"
+        android:layout_height="292dp"
+        android:layout_marginBottom="88dp"
         android:background="@drawable/white_text_view"
-        android:gravity="left"
-
+        android:gravity="start"
         android:maxLines="5"
+        android:scrollbars="vertical"
+        android:textColor="@color/black"
         android:textColorHighlight="#FF9800"
         android:textSize="20sp"
-        android:textColor="@color/black"
-        android:scrollbars="vertical"
         app:layout_constraintBottom_toTopOf="@+id/confirm"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.833"
-        tools:ignore="RtlHardcoded,TextViewEdits" />
+        app:layout_constraintVertical_bias="0.961" />
 
-
-    <EditText
-        android:id="@+id/editTextTextPersonName4"
+    <TextView
+        android:id="@+id/confirmationPage"
         android:layout_width="374dp"
         android:layout_height="67dp"
+        android:autofillHints=""
         android:background="@drawable/orange_text_view"
         android:ems="30"
         android:gravity="center"
-        android:inputType="textPersonName"
-        android:text="@string/book_appointments"
+        android:text="@string/confirm_your_details1"
         android:textColor="@color/white"
         android:textColorHighlight="#FF9800"
         android:textSize="28sp"
-        app:layout_constraintBottom_toTopOf="@+id/aptDetails"
+        app:layout_constraintBottom_toBottomOf="@+id/aptDetails"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintHorizontal_bias="0.432"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.672"
-        android:autofillHints=""
-        tools:ignore="LabelFor" />
+        app:layout_constraintVertical_bias="0.154" />
 
     <Button
         android:id="@+id/confirm"
         android:layout_width="162dp"
         android:layout_height="67dp"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="128dp"
         android:background="@drawable/buttons"
         android:text="@string/confirm"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/aptDetails"
-        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="@+id/aptDetails" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

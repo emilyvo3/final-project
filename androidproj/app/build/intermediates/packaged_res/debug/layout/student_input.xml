@@ -7,15 +7,14 @@
     android:background="#58595B"
     tools:context=".student_input">
 
-    <EditText
+    <TextView
         android:id="@+id/coursesNames"
         android:layout_width="374dp"
         android:layout_height="67dp"
         android:background="@drawable/orange_text_view"
         android:ems="30"
         android:gravity="center"
-        android:inputType="textPersonName"
-        android:text="Enter a course:"
+        android:text="@string/enter_a_course"
         android:textColor="@color/white"
         android:textColorHighlight="#FF9800"
         android:textSize="27sp"
@@ -33,7 +32,7 @@
         android:background="@drawable/white_text_view"
         android:ems="30"
         android:gravity="center"
-        android:hint="(e.g.COSC302)"
+        android:hint="@string/e_g_cosc302"
         android:inputType="textPersonName"
         android:textColorHighlight="#FF9800"
         android:textSize="18sp"
@@ -42,17 +41,17 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/coursesNames"
-        app:layout_constraintVertical_bias="0.256" />
+        app:layout_constraintVertical_bias="0.256"
+        android:autofillHints="" />
 
-    <EditText
+    <TextView
         android:id="@+id/coursesNums"
         android:layout_width="374dp"
         android:layout_height="67dp"
         android:background="@drawable/orange_text_view"
         android:ems="30"
         android:gravity="center"
-        android:inputType="textPersonName"
-        android:text="Enter your name:"
+        android:text="@string/enter_your_name"
         android:textColor="@color/white"
         android:textColorHighlight="#FF9800"
         android:textSize="27sp"
@@ -70,7 +69,7 @@
         android:background="@drawable/white_text_view"
         android:ems="30"
         android:gravity="center"
-        android:hint="(First and Last Name)"
+        android:hint="@string/first_and_last_name"
         android:inputType="textPersonName"
         android:textColorHighlight="#FF9800"
         android:textSize="19sp"
@@ -78,7 +77,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/coursesNums"
-        app:layout_constraintVertical_bias="0.483" />
+        app:layout_constraintVertical_bias="0.483"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/submit"
@@ -86,7 +86,7 @@
         android:layout_height="67dp"
         android:layout_marginBottom="92dp"
         android:background="@drawable/buttons"
-        android:text="Submit"
+        android:text="@string/submit1"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/coursesList"

@@ -16,7 +16,7 @@
             android:id="@+id/AppointmentsAvailable"
             android:layout_width="374dp"
             android:layout_height="67dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="44dp"
             android:background="@drawable/orange_text_view"
             android:ems="30"
             android:gravity="center"
@@ -24,11 +24,12 @@
             android:textColor="@color/white"
             android:textColorHighlight="#FF9800"
             android:textSize="27sp"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.486"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintTop_toTopOf="parent" />
 
-            <LinearLayout
+        <LinearLayout
                 android:id="@+id/courseButtonsLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -55,7 +56,7 @@
             android:layout_width="162dp"
             android:layout_height="67dp"
             android:background="@drawable/buttons"
-            android:text="Submit"
+            android:text="@string/submit2"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="@+id/courseButtonsLayout"
             app:layout_constraintTop_toBottomOf="@id/courseTextView"

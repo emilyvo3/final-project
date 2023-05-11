@@ -1,6 +1,5 @@
 package com.example.android_proj;
 
-//import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -52,7 +51,6 @@ public class student_input extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //int number = Integer.parseInt(textBoxName.getText().toString().trim());
                 String name = textBoxName.getText().toString().trim();
                 String crs = coursesList.getText().toString();
 

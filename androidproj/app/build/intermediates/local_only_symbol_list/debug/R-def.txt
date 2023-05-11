@@ -21,6 +21,7 @@ id AppointmentsAvailable
 id appointmentRecyclerView
 id aptDetails
 id confirm
+id confirmationPage
 id container
 id courseButtonsLayout
 id courseTextView
@@ -29,7 +30,6 @@ id coursesList
 id coursesNames
 id coursesNums
 id date
-id editTextTextPersonName4
 id goback
 id location
 id mainLayout
@@ -52,8 +52,14 @@ string app_name
 string appointments_available
 string book_appointments
 string confirm
+string confirm_your_details
+string confirm_your_details1
 string default_web_client_id
+string e_g_cosc302
+string enter_a_course
+string enter_your_name
 string firebase_database_url
+string first_and_last_name
 string gcm_defaultSenderId
 string go_back
 string google_api_key
@@ -62,6 +68,8 @@ string google_crash_reporting_api_key
 string google_storage_bucket
 string project_id
 string submit
+string submit1
+string submit2
 string tutor_name_format
 style Theme.Androidproj
 xml backup_rules

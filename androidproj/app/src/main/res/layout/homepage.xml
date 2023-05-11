@@ -12,7 +12,6 @@
         android:background="#58595B"
         tools:context=".student_input">
 
-
         <ImageView
             android:id="@+id/tlogo"
             android:layout_width="match_parent"

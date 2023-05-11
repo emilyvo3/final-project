@@ -6,4 +6,12 @@
     <string name="confirm">Confirm</string>
     <string name="book_appointments">Book Appointments:</string>
     <string name="go_back">Go Back</string>
+    <string name="confirm_your_details">Confirm Your Details</string>
+    <string name="first_and_last_name">(First and Last Name)</string>
+    <string name="enter_your_name">Enter your name:</string>
+    <string name="enter_a_course">Enter a course:</string>
+    <string name="e_g_cosc302">(e.g.COSC302)</string>
+    <string name="submit1">Submit</string>
+    <string name="submit2">Submit</string>
+    <string name="confirm_your_details1">Confirm Your Details:</string>
 </resources>

@@ -2,6 +2,8 @@ package com.example.android_proj;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import androidx.annotation.NonNull;
+
 public class dataSample implements Parcelable {
     private String Course;
     private String LastName;
@@ -87,6 +89,7 @@ public class dataSample implements Parcelable {
         dest.writeString(Time);
     }
 
+    @NonNull
     @Override
     public String toString() {
         return "dataSample{" +

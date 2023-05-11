@@ -21,8 +21,14 @@
     <string name="appointments_available">Appointments Available:</string>
     <string name="book_appointments">Book Appointments:</string>
     <string name="confirm">Confirm</string>
+    <string name="confirm_your_details">Confirm Your Details</string>
+    <string name="confirm_your_details1">Confirm Your Details:</string>
     <string name="default_web_client_id" translatable="false">300980445319-44o46o2avncnbm6cel1ds0o4gd4h948v.apps.googleusercontent.com</string>
+    <string name="e_g_cosc302">(e.g.COSC302)</string>
+    <string name="enter_a_course">Enter a course:</string>
+    <string name="enter_your_name">Enter your name:</string>
     <string name="firebase_database_url" translatable="false">https://volverse-b6b3d-default-rtdb.firebaseio.com</string>
+    <string name="first_and_last_name">(First and Last Name)</string>
     <string name="gcm_defaultSenderId" translatable="false">300980445319</string>
     <string name="go_back">Go Back</string>
     <string name="google_api_key" translatable="false">AIzaSyBFkkN6l4oVkYFxdOZ6acliJrWdXnNpmSA</string>
@@ -31,6 +37,8 @@
     <string name="google_storage_bucket" translatable="false">volverse-b6b3d.appspot.com</string>
     <string name="project_id" translatable="false">volverse-b6b3d</string>
     <string name="submit">Submit</string>
+    <string name="submit1">Submit</string>
+    <string name="submit2">Submit</string>
     <string name="tutor_name_format">%s %s</string>
     <style name="Theme.Androidproj" parent="Theme.MaterialComponents.Light.NoActionBar">
         
