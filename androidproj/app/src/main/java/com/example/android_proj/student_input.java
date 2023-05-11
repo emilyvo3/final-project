@@ -64,6 +64,7 @@ public class student_input extends AppCompatActivity {
                 Toast.makeText(student_input.this,"Data successfully inserted",Toast.LENGTH_LONG).show();
 
                 Intent intent = new Intent(student_input.this, book_apt.class);
+                intent.putExtra("crsName", crs);
                 startActivity(intent);
             }
         });

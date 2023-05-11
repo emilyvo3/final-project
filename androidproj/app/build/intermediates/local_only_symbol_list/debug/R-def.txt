@@ -24,7 +24,6 @@ id buttonContainer
 id confirm
 id container
 id courseButtonsLayout
-id courseEditText
 id courseTextView
 id course_code
 id coursesList
@@ -37,7 +36,6 @@ id location
 id mainLayout
 id start
 id submit
-id submitButton
 id textBox
 id textBoxName
 id textView

@@ -3000,7 +3000,6 @@ id coordinator
 id cos
 id counterclockwise
 id courseButtonsLayout
-id courseEditText
 id courseTextView
 id course_code
 id coursesList
@@ -3304,7 +3303,6 @@ id stop
 id stretch
 id submenuarrow
 id submit
-id submitButton
 id submit_area
 id supportScrollUp
 id tabMode

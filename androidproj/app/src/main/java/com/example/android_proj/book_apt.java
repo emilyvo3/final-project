@@ -36,8 +36,8 @@ public class book_apt extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.book_appt);
 
-        courseEditText = findViewById(R.id.courseEditText);
-        Button submitButton = findViewById(R.id.submitButton);
+        //courseEditText = findViewById(R.id.courseEditText);
+        //Button submitButton = findViewById(R.id.submitButton);
         LinearLayout buttonContainer = findViewById(R.id.buttonContainer);
         courseTextView = findViewById(R.id.courseTextView);
         submit = findViewById(R.id.submit);
@@ -46,13 +46,15 @@ public class book_apt extends AppCompatActivity {
 
         readData();
 
-        submitButton.setOnClickListener(new View.OnClickListener() {
+        String inputCourses = getIntent().getStringExtra("crsName");
+        filterAndDisplayCourses(inputCourses);
+        /*submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String inputCourses = courseEditText.getText().toString();
+                String inputCourses = getIntent().getStringExtra("name");
                 filterAndDisplayCourses(inputCourses);
             }
-        });
+        });*/
     }
 
     private void readData() {
