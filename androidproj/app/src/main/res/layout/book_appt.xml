@@ -32,9 +32,8 @@
                 android:id="@+id/courseButtonsLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="30dp"
                 android:orientation="vertical"
-                android:background="@drawable/white_text_view"
                 app:layout_constraintTop_toBottomOf="@+id/AppointmentsAvailable"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
@@ -47,7 +46,6 @@
             android:textColor="@color/black"
             android:textSize="25sp"
             android:gravity="center"
-
             app:layout_constraintTop_toBottomOf="@+id/courseButtonsLayout"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -56,13 +54,11 @@
             android:id="@+id/submit"
             android:layout_width="162dp"
             android:layout_height="67dp"
-            android:layout_marginBottom="4dp"
             android:background="@drawable/buttons"
             android:text="Submit"
             android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/courseButtonsLayout"
-            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintTop_toBottomOf="@id/courseTextView"
             app:layout_constraintStart_toStartOf="@+id/courseButtonsLayout" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
