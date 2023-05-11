@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/white_text_view"
         android:gravity="left"
-        android:inputType="textPersonName"
+
         android:maxLines="5"
         android:textColorHighlight="#FF9800"
         android:textSize="20sp"
