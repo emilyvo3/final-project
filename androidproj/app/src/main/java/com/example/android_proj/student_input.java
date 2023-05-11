@@ -56,6 +56,7 @@ public class student_input extends AppCompatActivity {
                 String name = textBoxName.getText().toString().trim();
                 String crs = coursesList.getText().toString();
 
+                fData = new filteredData(); // Instantiate the fData object
                 fData.setName(name);
                 member.setCoursesList(crs);
                 reff.child("Student " + (max_id + 1)).setValue(member);
@@ -68,3 +69,4 @@ public class student_input extends AppCompatActivity {
         });
     }
 }
+
